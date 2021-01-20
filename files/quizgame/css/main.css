@@ -1,0 +1,430 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,button,input,select,textarea {
+color:#222;
+}
+html {
+font-size:1em;
+line-height:1.4;
+}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+::selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 1em 0;
+padding: 0;
+}
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,canvas,img,video {
+vertical-align:middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+border:0;
+margin:0;
+padding:0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+resize:vertical;
+}
+
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+   
+@font-face {
+    font-family: 'alcubierreregular';
+    src: url('fonts/alcubierre-webfont.woff2') format('woff2'),
+         url('fonts/alcubierre-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select: none;-webkit-touch-callout:none; background:#0970b5;}
+
+/*-- Percent Loader -- */
+#mainLoader{position:absolute; z-index:5; display:none; font-size:30px; line-height:30px; color:#fff; text-align:center; width:100%; font-family:'alcubierreregular';}
+
+/*-- Content Wrapper -- */
+#mainHolder{position:relative; width:100%;height:100%; display:none; background:#107fc9;}
+#option{ position:absolute; right:0; z-index:5; margin:15px;}
+.buttonFullscreen, .buttonSound, .buttonExit{ margin:5px 0px;}
+.buttonSoundOn .soundOff{ display:block;}
+.buttonSoundOn .soundOn{ display:none;}
+.buttonSoundOff .soundOn{ display:block;}
+.buttonSoundOff .soundOff{ display:none;}
+
+.buttonOptionOn .optionOff{ display:block;}
+.buttonOptionOn .optionOn{ display:none;}
+.buttonOptionOff .optionOn{ display:block;}
+.buttonOptionOff .optionOff{ display:none;}
+
+.buttonIcon{ width:100%;}
+.fontLoader{font-family:'alcubierreregular'; font-size:25px; line-height:25px; color:#fff;}
+
+/*-- Logo Wrapper -- */
+#logoHolder{display: table; position: absolute; height: 100%; width: 100%; color:#FFF; text-align:center;}
+.logo{ width:50%; margin:auto; padding-top:7%;}
+#logoHolder .preloadText{margin-top:10px;}
+#logoHolder .startImg{ width:15%; margin:auto; margin-top:10px;}
+
+/*-- Confirm Wrapper -- */
+#confirmHolder{ width:100%; height:100%; margin:auto; position:absolute; overflow: hidden; z-index:1000;}
+.confirmContent .message{ position:absolute; background:#107FC9; width:50%; height:30%; left:25%; top:30%; text-align:center; -webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px; color:#FFF; padding:5% 10%;}
+.confirmContent .okImg{ position:absolute; width:20%; top:63%; left:29%;}
+.confirmContent .cancelImg{ position:absolute; width:20%; top:63%; right:29%;}
+.overlayBg{background:url(../assets/bg_pixel.png) repeat;}
+
+/*-- Category Wrapper -- */
+#questionLoaderHolder{ width:100%; height:100%; margin:auto; position:relative; overflow: hidden; background:url(../assets/ajax-loader.gif) center no-repeat;}
+
+
+/*-- Category Wrapper -- */
+#categoryHolder{ width:100%; height:100%; margin:auto; position:relative; overflow: hidden;}
+.categoryContent ul{ list-style:none; padding:0; margin:0; color:#FFF; width:80%; margin:auto; padding-top:5%;}
+.categoryContent li{ width:29%; float:left; margin:0 2%;}
+.categoryContent .categoryTitle{ padding:5%; text-align:center;}
+.categoryContent .nextImg{ position:absolute; width:5%; top:75%; right:44%;}
+.categoryContent .prevImg{ position:absolute; width:5%; top:75%; left:44%;}
+
+/*-- Question Wrapper -- */
+#gameHolder{ width:100%; height:100%; margin:auto; position:relative; overflow: hidden;}
+#gameStatus{ position:absolute; top:0; left:0; margin:15px; width:100%; height:100%;}
+#gameStatus .gameTotal{ position:absolute; top:0; left:0; width:9%;}
+#gameStatus .gameTimer{ position:absolute; top:0; left:44%; width:12%; text-align:center;}
+.gameQuestionStatus{ position:absolute; top:18%; text-align:center; color:#524e9a; width:100%;}
+.gameTimerStatus{ position:absolute; top:18%; text-align:center; color:#524e9a; width:100%; left:18%;}
+
+#questionHolder{ position:relative; width:100%; height:100%;}
+#questionHolder .question{ position:absolute; width:100%; white-space: pre-line;}
+#videoHolder{position:absolute;}
+#answerHolder{ position:absolute; width:100%; height:100%;}
+#answerHolder .answer{ position:absolute; width:100%; white-space: pre-line;}
+#answerHolder .answerFocus{ z-index:100;}
+#inputHolder{ position:absolute; width:100%; height:100%;}
+#inputHolder .input{ position:absolute; width:100%;}
+#inputHolder input{ border:none; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */}
+
+#questionResultHolder{ position:relative; width:100%; height:100%;}
+.questionResultText, .nextImg, .previewImg{ position:absolute;}
+#questionResultHolder .nextImg{ top:65%; width:6%; left:52%;}
+#questionResultHolder .previewImg{ top:65%; width:6%; left:44%;}
+#explanationHolder{ position:absolute; width:100%; height:100%;}
+#explanationHolder .explanation{ position:absolute; width:100%;}
+
+/*-- Result Wrapper -- */
+#resultHolder{display: table; position: absolute; height: 100%; width: 100%;}
+.resultContent{ width:40%; margin:auto; text-align:center; color:#fff;}
+.itemWinnerCup{ width:50%; margin:auto; padding-top:20%;}
+.share{ margin-top:5%;}
+.share ul{ list-style:none; margin:0; padding:0; margin-top:10px;}
+.share li{ width:13%; margin:0 3px; display:inline-block;}
+.option{ margin-top:5%;}
+.option ul{ list-style:none; margin:0; padding:0;}
+.option li{ width:13%; margin:0 3px; display:inline-block;}
+.singleOption li:nth-child(2), .singleOption li:nth-child(3){display:none;}
+.NoSaveOption li:nth-child(2){ display:none;}
+
+/*-- Scoreboard -- */
+.resultExtra{ width:100%; height:100%; position:absolute; margin:auto; text-align:center; color:#fff; display:none;}
+.scoreContent, .submitContent{ position:relative; background:#107FC9; width:85%; height:90%; display:none; -webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; margin:auto; margin-top:2%;}
+.scoreTitle{ padding:2% 0;}
+ul.scoreList{ list-style:none; padding:0; margin:auto; width:90%; position:relative; height:62%;}
+ul.scoreList li{ height:8.5%; padding:.5% 2%;}
+ul.scoreList li .list{ float:left;}
+ul.scoreList li:nth-child(odd) {
+	background:#8077B7;
+}
+.buttonBack{ width:20%; margin:auto;}
+.submitTitle{ padding:5% 0;}
+.submitContent .label, .submitContent input{ margin:1% 0; text-align:center;}
+.action{ width:40%; margin:3% auto;}
+.buttonSubmit{ float:left; width:48%;}
+.buttonCancelSubmit{ float:right; width:48%;}
+
+
+.fontStatus{font-family:'Raleway'; font-size:30px; line-height:30px; color:#fff;}
+.fontQuestion{ font-family:'Raleway';}
+.fontAnswer{ font-family:'Raleway';}
+.fontInput{ font-family:'Raleway';}
+.fontCorrectWrong{ font-family:'Raleway';}
+.fontResultScore{font-family:'Raleway';}
+.fontShare{font-family:'Raleway';}
+.fontCategory{font-family:'Raleway';}
+.fontMessage{font-family:'Raleway';}
+.fontPreload{font-family:'Raleway';}
+.fontScoreTitle{font-family:'Raleway';}
+.fontScoreList{font-family:'Raleway';}
+.fontLabel{font-family:'Raleway';}
+.fontInput{font-family:'Raleway';}
+
+/*-- Form Wrapper -- */
+#editWrapper{ display:none;}
+#floatForm{ position:fixed; left:0; top:0; z-index:100; background:#36BDA3; padding:15px; color:#FFF; width:280px; border:#fff solid 2px;}
+#floatForm{ font-size:12px;}
+#floatForm #questionWrapper, #floatForm #answersWrapper, #floatForm #inputsWrapper, #floatForm #explanationWrapper, #floatForm #sortWrapper, #floatForm #templateWrapper{ background:#2C9883; padding:10px;}
+#floatForm input.button, #floatForm select.half, #floatForm label{ width:49%;}
+#floatForm .formRow input, #floatForm .formRow select{ float:right; width:48%;}
+#floatForm .formRow label{ float:left; width:48%;}
+
+#floatForm input{ width:100%; font-size:12px;}
+#floatForm textarea{ float:left; width:100%;}
+#floatForm select, #floatForm option{ width:100%;}
+
+.editBorder .question{ border:#fff solid 2px;}
+.editBorder #videoHolder{ border:#fff solid 2px;}
+.editBorder .buttonClick, .editBorder input{ border:#F90 solid 2px;}
+
+.buttonClick{ cursor:pointer;}
+.fitImg img{ width:100%; height:auto;}
+.ignorePadding{border:none; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */}
+
+@media (max-width:900px) and (orientation:portrait){
+	.logo{ width:90%; margin:auto; padding-top:30%;}
+	#logoHolder .startImg{ width:50%;}
+
+	.confirmContent .message{ width:80%; height:20%; left:10%; top:20%; padding:5% 10%;}
+	.confirmContent .okImg{ width:50%; top:43%; left:25%;}
+	.confirmContent .cancelImg{ width:50%; top:57%; right:25%;}
+
+	.categoryContent ul{ padding-top:15%;}
+	.categoryContent li{ width:46%; float:left; margin:0 2%;}
+	.categoryContent .categoryTitle{ min-height:30px;}
+	.categoryContent .nextImg{ position:absolute; width:15%; top:82%; right:32%;}
+	.categoryContent .prevImg{ position:absolute; width:15%; top:82%; left:32%;}
+	
+	.resultContent{ width:70%;}
+	
+	.scoreContent, .submitContent{ width:90%;  margin-top:15%; height:85%;}
+	.scoreTitle{ padding:8% 0;}
+	ul.scoreList{ list-style:none; padding:0; margin:auto; width:95%; position:relative; height:62%;}
+	ul.scoreList li{ height:9%; padding:2% 2%;}
+	.buttonBack{ width:40%; margin:auto;}
+	
+	.submitTitle{ padding:15% 0;}
+	.submitContent .label, .submitContent input{ margin:2% 0;}
+	.action{ width:40%; margin:3% auto;}
+	.buttonSubmit{ float:none; width:100%; margin-bottom:2%;}
+	.buttonCancelSubmit{ float:none; width:100%;}
+}
+
+@media (max-width:500px) and (orientation:portrait){
+	#option{ margin:5px; margin-right:0;}
+	.buttonIcon{ width:80%;}
+	
+	#gameStatus{ margin:5px;}
+	#gameStatus .gameTotal{ width:17%;}
+	#gameStatus .gameTimer{ left:38%; width:25%;}
+	
+	#questionResultHolder .nextImg{ top:65%; width:15%; left:52%;}
+	#questionResultHolder .previewImg{ top:65%; width:15%; left:35%;}
+	
+	.resultContent{ width:90%;}
+	.itemWinnerCup{ width:70%;}
+}
+
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+.ir {
+background-color: transparent;
+border: 0;
+overflow: hidden;
+/* IE 6/7 fallback */
+*text-indent: -9999px;
+}
+
+.ir:before {
+content: "";
+display: block;
+width: 0;
+height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+display: none !important;
+visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+clip: auto;
+height: auto;
+margin: 0;
+overflow: visible;
+position: static;
+width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,.clearfix:after{
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+
+.clearfix:after{
+clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix{
+*zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print{
+* {
+background:transparent!important;
+color:#000!important;
+box-shadow:none!important;
+text-shadow:none!important;
+}
+
+a,a:visited {
+text-decoration:underline;
+}
+
+a[href]:after {
+content:" (" attr(href) ")";
+}
+
+abbr[title]:after {
+content:" (" attr(title) ")";
+}
+
+.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {
+content:"";
+}
+
+pre,blockquote {
+border:1px solid #999;
+page-break-inside:avoid;
+}
+
+thead {
+display:table-header-group;
+}
+
+tr,img {
+page-break-inside:avoid;
+}
+
+img {
+max-width:100%!important;
+}
+
+@page {
+margin:.5cm;
+}
+
+p,h2,h3 {
+orphans:3;
+widows:3;
+}
+
+h2,h3 {
+page-break-after:avoid;
+}
+}

@@ -1,0 +1,2126 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+blockquote,
+q {
+    quotes: none
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none
+}
+del {
+    text-decoration: line-through
+}
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none
+}
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+ul {
+    list-style: none
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000
+}
+html,
+body,
+div {
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none
+}
+.button {
+    cursor: pointer
+}
+.buttonImages .content {
+    position: relative
+}
+.buttonImages .content img,
+.buttonImages .content .buttonText {
+    width: 100%;
+    height: 95%;
+    margin: 0 auto
+}
+.buttonImages .content .buttonText {
+    width: 94%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center
+}
+.buttonImages .content .buttonText span {
+    height: 86%;
+    font-size: 80%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center
+}
+.buttonImages img.hover {
+    display: none
+}
+.buttonImages.tapView .hover,
+.buttonImages.hoverView .hover {
+    display: block
+}
+.buttonImages.tapView img.normal,
+.buttonImages.hoverView img.normal {
+    display: none
+}
+.hidden {
+    display: none!important
+}
+.notVisible {
+    visibility: hidden
+}
+.gameContainer {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+.gameWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+.advertBottomBar {
+    width: 100%;
+    height: 0;
+    display: block;
+    background: #000
+}
+.advert {
+    margin: 0 auto
+}
+.advert320x50 {
+    width: 320px;
+    height: 50px
+}
+.advert300x250 {
+    width: 300px;
+    height: 250px
+}
+.popAdvert .button {
+    height: 2.87rem;
+    width: 5rem
+}
+.popAdvert .skip {
+    position: absolute;
+    bottom: 3%;
+    right: 3%
+}
+.popAdvert .title {
+    text-transform: uppercase
+}
+.page {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+h1 {
+    font-size: 110%
+}
+h2 {
+    font-size: 100%
+}
+h3 {
+    font-size: 140%
+}
+.bold {
+    font-weight: bold
+}
+.box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box
+}
+.center {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center
+}
+.centerH {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center
+}
+.centerHC {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center
+}
+.anim {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transition: translate3d(0, 0, 0);
+    -ms-transition: translate3d(0, 0, 0);
+    transition: translate3d(0, 0, 0)
+}
+.popups {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    text-align: center
+}
+.popups .coverLayer {
+    background: #000;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+.popup {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1
+}
+.boxWrapper {
+    top: 5%;
+    height: 75%;
+    position: absolute;
+    left: 50%;
+    width: 13rem
+}
+.boxInner {
+    height: 100%;
+    position: relative;
+    left: -50%;
+    background: url(../img/popups/blue.png) center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.boxOuter {
+    height: 20%;
+    position: relative;
+    left: -50%
+}
+.boxOuter .buttonImages {
+    height: 100%
+}
+.boxOuter .content {
+    width: 35%;
+    height: 100%;
+    margin: 0 auto
+}
+.boxContent {
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    width: 80%;
+    height: 87%
+}
+.boxContent .title {
+    color: #fff
+}
+.boxContent .row {
+    width: 100%
+}
+.boxContent .row .text {
+    height: 100%;
+    width: 60%
+}
+.miniScreen .backgroudLeft,
+.miniScreen .backgroudRight {
+    width: 5%
+}
+.miniScreen .backgroudCenter {
+    width: 90%
+}
+.miniScreen body .gameWrapper {
+    font-size: 220%
+}
+.smallScreen .backgroudLeft,
+.smallScreen .backgroudRight {
+    width: 5%
+}
+.smallScreen .backgroudCenter {
+    width: 90%
+}
+.smallScreen body .gameWrapper {
+    font-size: 200%
+}
+.bigScreen .backgroudLeft,
+.bigScreen .backgroudRight {
+    width: 15%
+}
+.bigScreen .backgroudCenter {
+    width: 70%
+}
+.bigScreen body .gameWrapper {
+    font-size: 100%
+}
+@media only screen and (min-width: 1px) and (max-width: 319px) {
+    html {
+        font-size: 10px
+    }
+    body {
+        font-size: 1.1rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 5%
+    }
+    .backgroudCenter {
+        width: 90%
+    }
+    body .gameWrapper {
+        font-size: 220%
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    html {
+        font-size: 10px
+    }
+    body {
+        font-size: 1.1rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 5%
+    }
+    .backgroudCenter {
+        width: 90%
+    }
+    body .gameWrapper {
+        font-size: 220%
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    html {
+        font-size: 11.25px
+    }
+    body {
+        font-size: 1.2375rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 5%
+    }
+    .backgroudCenter {
+        width: 90%
+    }
+    body .gameWrapper {
+        font-size: 200%
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+    html {
+        font-size: 15px
+    }
+    body {
+        font-size: 1.6500000000000001rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 5%
+    }
+    .backgroudCenter {
+        width: 90%
+    }
+    body .gameWrapper {
+        font-size: 200%
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 719px) {
+    html {
+        font-size: 20px
+    }
+    body {
+        font-size: 2.2rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 15%
+    }
+    .backgroudCenter {
+        width: 70%
+    }
+    body .gameWrapper {
+        font-size: 100%
+    }
+}
+@media only screen and (min-width: 720px) and (max-width: 767px) {
+    html {
+        font-size: 22.5px
+    }
+    body {
+        font-size: 2.475rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 15%
+    }
+    .backgroudCenter {
+        width: 70%
+    }
+    body .gameWrapper {
+        font-size: 100%
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+    html {
+        font-size: 24px
+    }
+    body {
+        font-size: 2.64rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 15%
+    }
+    .backgroudCenter {
+        width: 70%
+    }
+    body .gameWrapper {
+        font-size: 100%
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+    html {
+        font-size: 25px
+    }
+    body {
+        font-size: 2.75rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 15%
+    }
+    .backgroudCenter {
+        width: 70%
+    }
+    body .gameWrapper {
+        font-size: 100%
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 2047px) {
+    html {
+        font-size: 32px
+    }
+    body {
+        font-size: 3.5200000000000005rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 15%
+    }
+    .backgroudCenter {
+        width: 70%
+    }
+    body .gameWrapper {
+        font-size: 100%
+    }
+}
+@media only screen and (min-width: 2048px) {
+    html {
+        font-size: 64px
+    }
+    body {
+        font-size: 7.040000000000001rem
+    }
+    .backgroudLeft,
+    .backgroudRight {
+        width: 15%
+    }
+    .backgroudCenter {
+        width: 70%
+    }
+    body .gameWrapper {
+        font-size: 100%
+    }
+}
+@media only screen and (orientation: portrait) {
+    body {
+        overflow: hidden
+    }
+    body .orientation {
+        display: block
+    }
+}
+@media only screen and (orientation: landscape) {
+    body .orientation {
+        display: none
+    }
+}
+.orientation {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    z-index: 10000
+}
+body {
+    color: #1b3261;
+    font-family: 'Skranji', cursive
+}
+.orientation {
+    background: #534970;
+    display: none
+}
+.orientation .orientationImg {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 50%;
+    background: url(../img/orientation.png) center center no-repeat;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.gameWrapper {
+    background: #000
+}
+.backgroudLeft,
+.backgroudRight,
+.backgroudCenter {
+    height: 100%;
+    float: left;
+    position: relative
+}
+.buttonImages .content .buttonText {
+    color: #d52d00;
+    font-weight: bold;
+    text-transform: uppercase
+}
+.bluePopup {
+    background: url(../img/popups/blue.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.icon {
+    background-image: url(../img/gui/icons.png);
+    background-size: auto 3rem;
+    -moz-background-size: auto 3rem;
+    -webkit-background-size: auto 3rem;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 auto
+}
+.icon.arrowLeft {
+    background-position: -4.5rem 0
+}
+div.hoverView .icon.arrowLeft,
+div.tapView .icon.arrowLeft {
+    background-position: -4.5rem -1.5rem
+}
+.icon.arrowRight {
+    background-position: -6rem 0
+}
+div.hoverView .icon.arrowRight,
+div.tapView .icon.arrowRight {
+    background-position: -6rem -1.5rem
+}
+.icon.back {
+    background-position: 0 0
+}
+div.hoverView .icon.back,
+div.tapView .icon.back {
+    background-position: 0 -1.5rem
+}
+.icon.mute {
+    background-position: -1.5rem 0
+}
+div.hoverView .icon.mute,
+div.tapView .icon.mute {
+    background-position: -1.5rem -1.5rem
+}
+.star {
+    background: url(../img/gui/star.png) no-repeat bottom center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    display: inline-block
+}
+.star.small {
+    width: 1.2rem;
+    height: 1.2rem
+}
+.star.big {
+    width: 4rem;
+    height: 4rem;
+    font-size: 120%
+}
+.pageIntroB .backgroudCenter {
+    background: url(../img/bg/bg-splash-center.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageIntroB .backgroudLeft {
+    background: url(../img/bg/bg-splash-left.jpg) no-repeat right top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageIntroB .backgroudRight {
+    background: url(../img/bg/bg-splash-right.jpg) no-repeat left top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageIntroB .gameLogo {
+    width: 80%;
+    height: 30%;
+    position: relative;
+    margin: 0 10%;
+    top: 5%;
+    background: url(../img/logo.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.pageIntroB .splashAnimals {
+    width: 80%;
+    height: 50%;
+    position: relative;
+    margin: 0 10%;
+    top: 15%;
+    background: url(../img/bg/splash-animals.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.pageIntroB .loaderBox,
+.pageIntroB .startGame {
+    position: absolute;
+    bottom: 1.5%;
+    width: 100%
+}
+.pageIntroB .loaderBar {
+    position: relative;
+    width: 17rem;
+    height: 2.9869rem;
+    margin: 0 auto;
+    background: url(../img/gui/loader/bar.png) no-repeat top center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.pageIntroB .loaderBar .progress {
+    position: absolute;
+    top: 11.7%;
+    width: 90%;
+    height: 55%;
+    left: 3.5%
+}
+.pageIntroB .loaderBar .progress .progressBarCenter {
+    height: 100%;
+    background: url(../img/gui/loader/progress-bg.png);
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -webkit-border-radius: .5rem
+}
+.pageIntroB .startGame {
+    height: 30%;
+    font-size: 160%
+}
+.pageIntroB .startGame .content {
+    height: 66.66%;
+    width: 50%;
+    margin: 5% 25% 0 25%
+}
+.pageMenuB .backgroudCenter {
+    background: url(../img/bg/bg-flowers-center.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageMenuB .backgroudLeft {
+    background: url(../img/bg/bg-flowers-left.jpg) no-repeat right top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageMenuB .backgroudRight {
+    background: url(../img/bg/bg-flowers-right.jpg) no-repeat left top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageMenuB .left,
+.pageMenuB .right {
+    float: left;
+    width: 50%;
+    height: 100%
+}
+.pageMenuB .left .top {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background: url(../img/logo.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.pageMenuB .left .bottom {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 78%;
+    background: url(../img/girl.png) no-repeat bottom center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.pageMenuB .right .bluePopup {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: 8%;
+    background: url(../img/popups/blue.png) no-repeat center center;
+    background-size: 95% 100%;
+    -moz-background-size: 95% 100%;
+    -webkit-background-size: 95% 100%
+}
+.pageMenuB .right .bluePopup .menu {
+    height: 82%;
+    width: 74%;
+    position: absolute;
+    left: 12%;
+    top: 6%
+}
+.pageMenuB .right .bluePopup .row {
+    width: 100%;
+    height: 25%;
+    position: relative
+}
+.pageMenuB .right .bluePopup .row .content {
+    width: 74%;
+    height: 70%;
+    position: relative;
+    top: 15%;
+    left: 13%
+}
+.pageMenuB .right .bluePopup .row.gameMode {
+    text-align: center;
+    color: #fff;
+    height: 15%;
+    margin-bottom: 15%
+}
+.pageMenuB .scroller {
+    width: 50%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    position: relative;
+    left: 24%;
+    overflow: hidden;
+    text-transform: lowercase
+}
+.pageMenuB .scroller .gameModeOption {
+    width: 300%;
+    height: 100%;
+    position: relative
+}
+.pageMenuB .scroller .gameModeOption span {
+    width: 33.3%;
+    height: 100%;
+    display: block;
+    float: left;
+    font-size: 72%
+}
+.pageMenuB .scroller .gameModeOption.option1 {
+    left: 0
+}
+.pageMenuB .scroller .gameModeOption.option2 {
+    left: -100%
+}
+.pageMenuB .scroller .gameModeOption.option3 {
+    left: -200%
+}
+.pageMenuB .scroller .gameModeOption.anim {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out
+}
+.pageMenuB .right .bluePopup .row.gameMode .arrow {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0
+}
+.pageMenuB .right .bluePopup .row.gameMode .arrowLeft {
+    left: 0
+}
+.pageMenuB .right .bluePopup .row.gameMode .arrowRight {
+    right: 0
+}
+.pageMenuB .scoreBnt.anim,
+.popAchievements .imageList .oneImage.anim .image {
+    -webkit-animation-name: increase;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: increase;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: increase;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-name: increase;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    animation-name: increase;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+@-webkit-keyframes increase {
+    0% {
+        -webkit-transform: scale(1)
+    }
+    50% {
+        -webkit-transform: scale(1.1)
+    }
+    100% {
+        -webkit-transform: scale(1)
+    }
+}
+@-moz-keyframes increase {
+    0% {
+        -moz-transform: scale(1)
+    }
+    50% {
+        -moz-transform: scale(1.1)
+    }
+    100% {
+        -moz-transform: scale(1)
+    }
+}
+@-o-keyframes increase {
+    0% {
+        -o-transform: scale(1)
+    }
+    50% {
+        -o-transform: scale(1.1)
+    }
+    100% {
+        -o-transform: scale(1)
+    }
+}
+@-ms-keyframes increase {
+    0% {
+        -ms-transform: scale(1)
+    }
+    50% {
+        -ms-transform: scale(1.1)
+    }
+    100% {
+        -ms-transform: scale(1)
+    }
+}
+@keyframes increase {
+    0% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(1.1)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+.pageGameB .backgroudCenter {
+    background: url(../img/bg/bg-flowers-center.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageGameB .backgroudLeft {
+    background: url(../img/bg/bg-flowers-left.jpg) no-repeat right top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageGameB .backgroudRight {
+    background: url(../img/bg/bg-flowers-right.jpg) no-repeat left top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageGameB .gameHud {
+    width: 100%;
+    height: 10%;
+    font-size: 90%
+}
+.pageGameB .gameHud .col {
+    position: relative;
+    height: 100%;
+    float: left
+}
+.pageGameB .gameHud .button {
+    width: 15%;
+    height: 2rem;
+    z-index: 10
+}
+.pageGameB .gameMusic.on .mute,
+.pageGameB .gameMusic.off .unmute {
+    display: none
+}
+.pageGameB .gameMusic.off .mute,
+.pageGameB .gameMusic.on .unmute {
+    display: block
+}
+.pageGameB .gameHud .button .icon.back,
+.pageGameB .gameHud .button .icon.mute,
+.pageGameB .gameHud .button .icon.unmute {
+    background-size: auto 4rem;
+    -moz-background-size: auto 4rem;
+    -webkit-background-size: auto 4rem;
+    width: 2rem;
+    height: 2rem
+}
+.pageGameB .icon.back {
+    background-position: 0 0
+}
+.pageGameB div.hoverView .icon.back,
+.pageGameB div.tapView .icon.back {
+    background-position: 0 -2rem
+}
+.pageGameB .icon.mute {
+    background-position: -2rem 0
+}
+div.hoverView .icon.mute,
+div.tapView .icon.mute {
+    background-position: -2rem -2rem
+}
+.pageGameB .icon.unmute {
+    background-position: -4rem 0
+}
+div.hoverView .icon.unmute,
+div.tapView .icon.unmute {
+    background-position: -4rem -2rem
+}
+.pageGameB .gameHud .hudContainer {
+    position: relative;
+    width: 70%;
+    text-transform: lowercase
+}
+.pageGameB .gameHud .hudContainer .leftCol,
+.pageGameB .gameHud .hudContainer .rightCol {
+    position: absolute;
+    top: 0;
+    width: 4%;
+    z-index: 2
+}
+.pageGameB .gameHud .hudContainer .leftCol {
+    left: 0;
+    background: url(../img/gui/hud-left.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageGameB .gameHud .hudContainer .rightCol {
+    right: 0;
+    background: url(../img/gui/hud-right.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageGameB .gameHud .hudContainer .centerCol {
+    position: relative;
+    width: 94%;
+    left: 3%;
+    background: url(../img/gui/hud-center.png);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageGameB .gameHud .hudContainer .centerCol .col {
+    position: relative;
+    width: 50%
+}
+.pageGameB .gameHud .hudContainer .centerCol .col span {
+    height: 100%;
+    width: 100%
+}
+.pageGameB .gameHud .hudContainer .centerCol .col.text span {
+    width: 95%;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    box-align: end
+}
+.pageGameB .gameHud .hudContainer .centerCol .blueBox {
+    position: relative;
+    height: 80%;
+    top: 10%;
+    background: url(../img/gui/hud-bar-box.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    text-align: center;
+    color: #fff
+}
+.pageGameB .girl {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 40%;
+    height: 80%;
+    background: url(../img/girl.png) no-repeat bottom center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.pageGame.gameMode3 .girl,
+.pageGame.gameMode2 .girl {
+    left: -15%
+}
+.pageGame.gameMode1 .girl {
+    left: 5%
+}
+.cardContainer {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 85%;
+    height: 90%;
+    z-index: 20;
+    overflow: hidden
+}
+.cardContainer .card {
+    position: absolute
+}
+.cardContainer .card div {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 96%;
+    height: 96%
+}
+.cardContainer .card.back {
+    cursor: pointer
+}
+.cardContainer .card.front {
+    cursor: default
+}
+.cardContainer .card.back div.cardBack,
+.cardContainer .card.front div.cardFront {
+    z-index: 900
+}
+.cardContainer .card.front div.cardBack,
+.cardContainer .card.back div.cardFront {
+    z-index: 800
+}
+.cardContainer .card div.cardBack {
+    background: url(../img/cards/back.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer.gameMode3 .card {
+    width: 20%;
+    height: 25%
+}
+.cardContainer.gameMode3 .card.col1 {
+    left: 0
+}
+.cardContainer.gameMode3 .card.col2 {
+    left: 20%
+}
+.cardContainer.gameMode3 .card.col3 {
+    left: 40%
+}
+.cardContainer.gameMode3 .card.col4 {
+    left: 60%
+}
+.cardContainer.gameMode3 .card.col5 {
+    left: 80%
+}
+.cardContainer.gameMode3 .card.row1 {
+    top: 0
+}
+.cardContainer.gameMode3 .card.row2 {
+    top: 25%
+}
+.cardContainer.gameMode3 .card.row3 {
+    top: 50%
+}
+.cardContainer.gameMode3 .card.row4 {
+    top: 75%
+}
+.cardContainer.gameMode2 .card {
+    width: 25%;
+    height: 33.33%
+}
+.cardContainer.gameMode2 .card.col5,
+.cardContainer.gameMode2 .card.row4 {
+    display: none
+}
+.cardContainer.gameMode2 .card.col1 {
+    left: 0
+}
+.cardContainer.gameMode2 .card.col2 {
+    left: 25%
+}
+.cardContainer.gameMode2 .card.col3 {
+    left: 50%
+}
+.cardContainer.gameMode2 .card.col4 {
+    left: 75%
+}
+.cardContainer.gameMode2 .card.row1 {
+    top: 0
+}
+.cardContainer.gameMode2 .card.row2 {
+    top: 33.33%
+}
+.cardContainer.gameMode2 .card.row3 {
+    top: 66.66%
+}
+.cardContainer.gameMode1 {
+    width: 50%
+}
+.cardContainer.gameMode1 .card {
+    width: 50%;
+    height: 33.33%
+}
+.cardContainer.gameMode1 .card.col5,
+.cardContainer.gameMode1 .card.col4,
+.cardContainer.gameMode1 .card.col3,
+.cardContainer.gameMode1 .card.row4 {
+    display: none
+}
+.cardContainer.gameMode1 .card.col1 {
+    left: 0
+}
+.cardContainer.gameMode1 .card.col2 {
+    left: 50%
+}
+.cardContainer.gameMode1 .card.row1 {
+    top: 0
+}
+.cardContainer.gameMode1 .card.row2 {
+    top: 33.33%
+}
+.cardContainer.gameMode1 .card.row3 {
+    top: 66.66%
+}
+.cardContainer .card {
+    -webkit-perspective: 10rem;
+    -moz-perspective: 10rem;
+    -o-transform: 10rem;
+    perspective: 10rem;
+    transform-origin: right center;
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -o-transform-origin: right center;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+.cardContainerAnim .card div {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+.cardContainer .card div.cardBack {
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -o-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg)
+}
+.cardContainer .card div.cardFront {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+}
+.cardContainer .card.fliped div.cardBack,
+.cardContainer .card.front div.cardBack {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+.cardContainer .card.fliped div.cardFront,
+.cardContainer .card.front div.cardFront {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -o-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg)
+}
+.cardContainer .card.cardImage1 div.cardFront {
+    background: url(../img/cards/1.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage2 div.cardFront {
+    background: url(../img/cards/2.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage3 div.cardFront {
+    background: url(../img/cards/3.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage4 div.cardFront {
+    background: url(../img/cards/4.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage5 div.cardFront {
+    background: url(../img/cards/5.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage6 div.cardFront {
+    background: url(../img/cards/6.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage7 div.cardFront {
+    background: url(../img/cards/7.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage8 div.cardFront {
+    background: url(../img/cards/8.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage9 div.cardFront {
+    background: url(../img/cards/9.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage10 div.cardFront {
+    background: url(../img/cards/10.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.cardContainer .card.cardImage11 div.cardFront {
+    background: url(../img/cards/11.png) no-repeat center center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain
+}
+.pageFinalImageB .backgroudCenter {
+    background: url(../img/bg/bg-splash-center.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageFinalImageB .backgroudLeft {
+    background: url(../img/bg/bg-splash-left.jpg) no-repeat right top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageFinalImageB .backgroudRight {
+    background: url(../img/bg/bg-splash-right.jpg) no-repeat left top;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageFinalImageB .topBar {
+    position: relative;
+    width: 100%;
+    height: 10%
+}
+.pageFinalImageB .topBar .backButton {
+    position: relative;
+    width: 20%;
+    float: left
+}
+.pageFinalImageB .topBar .hud {
+    position: relative;
+    top: 0;
+    width: 40%;
+    margin-right: 20%;
+    height: 100%;
+    float: right;
+    font-size: 90%;
+    text-transform: lowercase
+}
+.pageFinalImageB .hud .col {
+    position: relative;
+    height: 100%;
+    float: left;
+    text-align: right
+}
+.pageFinalImageB .hud .leftCol,
+.pageFinalImageB .hud .rightCol {
+    position: absolute;
+    top: 0;
+    width: 5%;
+    z-index: 2
+}
+.pageFinalImageB .hud .leftCol {
+    left: 0;
+    background: url(../img/gui/hud-left.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageFinalImageB .hud .rightCol {
+    right: 0;
+    background: url(../img/gui/hud-right.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageFinalImageB .hud .centerCol {
+    position: relative;
+    width: 92%;
+    left: 4%;
+    background: url(../img/gui/hud-center.png);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pageFinalImageB .hud .centerCol .col {
+    position: relative;
+    width: 50%
+}
+.pageFinalImageB .hud .centerCol .col span {
+    height: 100%;
+    width: 100%
+}
+.pageFinalImageB .hud .centerCol .col.text span {
+    width: 95%;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    box-align: end;
+    margin-right: 10%
+}
+.pageFinalImageB .hud .centerCol .blueBox {
+    position: relative;
+    height: 80%;
+    top: 10%;
+    background: url(../img/gui/hud-bar-box.png) no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    text-align: center;
+    color: #fff
+}
+.pageFinalImageB .hud .centerCol .blueBox .col1 {
+    width: 60%;
+    height: 100%;
+    float: left;
+    position: relative
+}
+.pageFinalImageB .hud .centerCol .blueBox .col2 {
+    width: 40%;
+    height: 100%;
+    float: left
+}
+.pageFinalImageB .hud .centerCol .blueBox .col1 .allScore {
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    box-align: end
+}
+.pageFinalImageB .hud .centerCol .blueBox .star {
+    width: 1rem;
+    height: 1rem
+}
+.pageFinalImageB .topBar .backButton .icon.back {
+    background-size: auto 4rem;
+    -moz-background-size: auto 4rem;
+    -webkit-background-size: auto 4rem;
+    width: 2rem;
+    height: 2rem
+}
+.pageFinalImageB .icon.back {
+    background-position: 0 0
+}
+.pageFinalImageB div.hoverView .icon.back,
+.pageFinalImageB div.tapView .icon.back {
+    background-position: 0 -2rem
+}
+.pageFinalImageB .imageContainer {
+    width: 100%;
+    height: 90%
+}
+.pageFinalImageB .image {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    top: 8%;
+    margin: 0 auto;
+    background: url(../img/gui/imageBg.png) no-repeat left top;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageFinalImageB .image.noSize {
+    visibility: hidden
+}
+.pageFinalImageB .image .wrapper {
+    position: relative;
+    left: 3.978958%;
+    width: 89.2%;
+    top: 6.75%;
+    height: 83.25%
+}
+.pageFinalImageB .image .wrapper .bgImage {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+.pageFinalImageB .image .wrapper .pieces {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10
+}
+.pieces .piece {
+    position: absolute;
+    opacity: 1;
+    z-index: 11
+}
+.pieces .piece.unlock {
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.pieces .piece1 {
+    bottom: 0;
+    left: 0;
+    width: 31.462540365984930032292787944026%;
+    height: 74.059787849566055930568948891032%;
+    background: url(../img/piece/1.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    z-index: 18
+}
+.pieces .piece2 {
+    top: 0;
+    left: 0;
+    width: 30.770505920344456404736275565124%;
+    height: 59.027097396335583413693346190935%;
+    background: url(../img/piece/2.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pieces .piece3 {
+    top: 0;
+    left: 27.502691065662002152852529601722%;
+    width: 44.694940796555435952637244348762%;
+    height: 40.415718418514946962391513982642%;
+    background: url(../img/piece/3.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pieces .piece4 {
+    top: 0;
+    right: 0;
+    width: 33.58449946178686759956942949408%;
+    height: 62.777242044358727097396335583414%;
+    background: url(../img/piece/4.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    z-index: 20
+}
+.pieces .piece5 {
+    bottom: 0;
+    right: 0;
+    width: 19.268030139935414424111948331539%;
+    height: 49.958919961427193828351012536162%;
+    background: url(../img/piece/5.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    z-index: 19
+}
+.pieces .piece6 {
+    bottom: 0;
+    right: 13.670613562970936490850376749193%;
+    width: 28.632938643702906350914962325081%;
+    height: 81.977917068466730954676952748312%;
+    background: url(../img/piece/6.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    z-index: 18
+}
+.pieces .piece7 {
+    bottom: 0;
+    left: 18.406889128094725511302475780409%;
+    width: 44.272012917115177610333692142088%;
+    height: 37.24059787849566055930568948891%;
+    background: url(../img/piece/7.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    z-index: 16
+}
+.pieces .piece8 {
+    top: 25.747348119575699132111861137898%;
+    left: 24.434876210979547900968783638321%;
+    width: 39.428094725511302475780409041981%;
+    height: 57.191321118611378977820636451302%;
+    background: url(../img/piece/8.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pieces .piece div {
+    color: #d52d00;
+    z-index: 20;
+    position: relative;
+    opacity: .5;
+    background: url(../img/gui/buttons/normal.png) no-repeat center center;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%
+}
+.pieces .piece div.canUnlock {
+    color: #1b3261;
+    opacity: 1;
+    cursor: pointer
+}
+.pieces .piece.unlock div {
+    display: none
+}
+.pieces .piece div.canUnlock.hoverView,
+.pieces .piece div.canUnlock.tapView {
+    background-image: url(../img/gui/buttons/normalHover.png)
+}
+.pieces .piece1 div {
+    top: 54%;
+    left: 8%;
+    width: 80%;
+    height: 19%
+}
+.pieces .piece2 div {
+    top: 21%;
+    left: 9%;
+    width: 84%;
+    height: 24%
+}
+.pieces .piece3 div {
+    top: 11%;
+    left: 17%;
+    width: 62%;
+    height: 37%
+}
+.pieces .piece4 div {
+    top: 26%;
+    left: 18%;
+    width: 82%;
+    height: 24%
+}
+.pieces .piece5 div {
+    top: 49%;
+    left: -9%;
+    width: 123%;
+    height: 26%;
+    font-size: 90%
+}
+.pieces .piece6 div {
+    width: 80%;
+    height: 15%;
+    font-size: 85%;
+    top: 54%;
+    left: 6%
+}
+.pieces .piece7 div {
+    top: 40%;
+    left: 30%;
+    width: 63%;
+    height: 40%
+}
+.pieces .piece8 div {
+    top: 35%;
+    left: 18%;
+    width: 70%;
+    height: 26%
+}
+.pageFinalImageB .bgImage.img1 {
+    background: url(../img/finish-images/1.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageFinalImageB .bgImage.img2 {
+    background: url(../img/finish-images/2.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.pageFinalImageB .bgImage.img3 {
+    background: url(../img/finish-images/3.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.popSettings {
+    color: #fff
+}
+.popSettings .boxContent .row {
+    height: 25%
+}
+.popSettings .boxContent .row.on .button span.off,
+.popSettings .boxContent .row.off .button span.on {
+    display: none
+}
+.popSettings .boxContent .row.on,
+.popSettings .boxContent .row.off {
+    cursor: pointer
+}
+.popSettings .boxContent .row.on .button span.on {
+    display: block;
+    color: green
+}
+.popSettings .boxContent .row.off .button span.off {
+    display: block;
+    color: red
+}
+.popSettings img {
+    height: 100%;
+    width: auto
+}
+.popSettings .boxContent .row .button {
+    width: 40%;
+    height: 100%;
+    background: url('../img/gui/buttons/small.png') center center no-repeat;
+    background-size: 80% auto;
+    -moz-background-size: 80% auto;
+    -webkit-background-size: 80% auto
+}
+.popSettings .boxContent .row.tapView .button,
+.popSettings .boxContent .row.hoverView .button {
+    background: url('../img/gui/buttons/smallHover.png') center center no-repeat;
+    background-size: 80% auto;
+    -moz-background-size: 80% auto;
+    -webkit-background-size: 80% auto
+}
+.popSettings .boxOuter .buttonImages {
+    height: 100%
+}
+.popQuit .boxWrapper {
+    width: 100%;
+    height: 70%;
+    top: 10%
+}
+.popQuit .question {
+    width: 80%;
+    margin: 10%
+}
+.popQuit .buttonsBox {
+    position: relative;
+    bottom: 0;
+    height: 30%
+}
+.popQuit .buttonsBox .col {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: url('../img/gui/buttons/small.png') center center no-repeat;
+    background-size: 80% auto;
+    -moz-background-size: 80% auto;
+    -webkit-background-size: 80% auto
+}
+.popQuit .buttonsBox .col.yes {
+    color: green;
+    font-weight: bold
+}
+.popQuit .buttonsBox .col.no {
+    color: #d52d00;
+    font-weight: bold
+}
+.popQuit .buttonsBox .col.hoverView,
+.popQuit .buttonsBox .col.tapView {
+    background: url('../img/gui/buttons/smallHover.png') center center no-repeat;
+    background-size: 80% auto;
+    -moz-background-size: 80% auto;
+    -webkit-background-size: 80% auto
+}
+.popWinLose {
+    overflow: hidden
+}
+.popWinLose .boxWrapper {
+    width: 100%;
+    height: 70%;
+    top: 10%
+}
+.popWinLose .boxInner {
+    background: url(../img/popups/gold.png) center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%
+}
+.popWinLose img {
+    height: 100%;
+    width: auto
+}
+.popWinLose .left,
+.popWinLose .right {
+    width: 48%;
+    height: 100%;
+    float: left
+}
+.popWinLose .right {
+    margin-left: 4%
+}
+.popWinLose .boxContent .row .button {
+    width: 40%;
+    height: 100%;
+    background: url('../img/gui/buttons/small.png') center center no-repeat;
+    background-size: 80% auto;
+    -moz-background-size: 80% auto;
+    -webkit-background-size: 80% auto
+}
+.popWinLose .boxContent .row.tapView .button,
+.popWinLose .boxContent .row.hoverView .button {
+    background: url('../img/gui/buttons/smallHover.png') center center no-repeat;
+    background-size: 80% auto;
+    -moz-background-size: 80% auto;
+    -webkit-background-size: 80% auto
+}
+.popWinLose .boxOuter {
+    margin-top: 5%
+}
+.popWinLose .boxOuter .buttonImages {
+    height: 100%;
+    width: 50%;
+    float: left
+}
+.popWinLose .boxOuter .content {
+    width: 85%;
+    font-size: 80%
+}
+.popWinLose .boxOuter .winGallery {
+    visibility: hidden
+}
+.popWinLose .boxOuter .winGallery.show {
+    visibility: visible
+}
+.popWinLose .boxContent {
+    top: 5%;
+    left: 6%;
+    width: 87%;
+    height: 87%
+}
+.popWinLose .title {
+    height: 20%;
+    font-size: 140%
+}
+.popWinLose .scoreBox {
+    position: relative;
+    width: 100%;
+    height: 77%
+}
+.popWinLose .scoreBox .result {
+    font-size: 90%
+}
+.popWinLose .scoreBox .row {
+    height: 15%;
+    margin: .665% 0
+}
+.popWinLose .scoreBox .row .col {
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    text-align: right
+}
+.popWinLose .scoreBox .row .col.text {
+    text-align: left;
+    padding-left: 5%;
+    width: 40%;
+    font-size: 80%
+}
+.popWinLose .scoreBox .row .col.sumScore {
+    border-top: .1rem solid #ffe000;
+    width: 40%;
+    margin-top: 2%
+}
+.popWinLose .allPoints {
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+    color: #ec3200;
+    font-weight: bold;
+    width: 45%;
+    height: 45%
+}
+.popWinLose .allPoints span {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    font-size: 70%
+}
+.popWinLose .winImg {
+    position: absolute;
+    bottom: -12%;
+    right: 5%;
+    width: 50%;
+    height: 60%;
+    background: url(../img/winImg.png) bottom right no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -webkit-background-size: 100% auto
+}
+.popLose .scoreBox {
+    background: #a52400
+}
+.popLose .winImg {
+    background: url(../img/loseImg.png) bottom center no-repeat;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    width: 90%;
+    right: 0
+}
+.popWinLose .boxOuter {
+    height: 50%;
+    position: relative;
+    left: 50%;
+    top: -75%;
+    width: 55%
+}
+.popWinLose .boxOuter .buttonImages {
+    height: 50%;
+    width: 100%;
+    float: none
+}
+.popWinLose .boxOuter .buttonImages .content {
+    width: 85%;
+    font-size: 80%;
+    height: 70%;
+    top: 15%
+}
+.popWinLose .boxWrapper {
+    height: 80%
+}
+.popAchievements .boxWrapper {
+    height: 90%;
+    left: 15%;
+    width: 70%
+}
+.popAchievements .boxInner {
+    left: 0
+}
+.popAchievements .title {
+    position: relative;
+    top: 3%;
+    font-size: 140%
+}
+.popAchievements .imageList {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 5%
+}
+.popAchievements .imageList .oneImage {
+    width: 50%;
+    height: 50%;
+    float: left
+}
+.popAchievements .imageList .oneImage.hoverView,
+.popAchievements .imageList .oneImage.tapView {
+    background: url(../img/gui/white01.png);
+    background-repeat: repeat
+}
+.popAchievements .imageList .oneImage.last {
+    margin: 0 25%
+}
+.popAchievements .imageList .oneImage .image {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    top: 0
+}
+.popAchievements .imageList .oneImage .image div.img {
+    background-size: auto 86%, auto 100%;
+    -moz-background-size: auto 86%, auto 100%;
+    -webkit-background-size: auto 86%, auto 100%;
+    background-position: center center, center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+.popAchievements .imageList .oneImage .image1 .img {
+    background-image: url(../img/finish-images/1blur.png), url(../img/gui/imageBgNoShadow.png)
+}
+.popAchievements .imageList .oneImage.unlockedAll .image1 .img {
+    background-image: url(../img/finish-images/1.png), url(../img/gui/imageBgNoShadow.png)
+}
+.popAchievements .imageList .oneImage .image2 .img {
+    background-image: url(../img/finish-images/2blur.png), url(../img/gui/imageBgNoShadow.png)
+}
+.popAchievements .imageList .oneImage.unlockedAll .image2 .img {
+    background-image: url(../img/finish-images/2.png), url(../img/gui/imageBgNoShadow.png)
+}
+.popAchievements .imageList .oneImage .image3 .img {
+    background-image: url(../img/finish-images/3blur.png), url(../img/gui/imageBgNoShadow.png)
+}
+.popAchievements .imageList .oneImage.unlockedAll .image3 .img {
+    background-image: url(../img/finish-images/3.png), url(../img/gui/imageBgNoShadow.png)
+}
+.popAchievements .imageList .oneImage .amount {
+    position: relative;
+    width: 100%;
+    height: 22.5%;
+    left: 0;
+    top: 0;
+    font-size: 80%
+}
+.popAchievements .closePop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 20%
+}
+.popAchievements .closePop .wrapper {
+    position: relative;
+    top: 10%
+}
+.popAchievements .closePop .icon.back {
+    background-size: auto 4rem;
+    -moz-background-size: auto 4rem;
+    -webkit-background-size: auto 4rem;
+    width: 2rem;
+    height: 2rem
+}
+.popAchievements .icon.back {
+    background-position: 0 0
+}
+.popAchievements div.hoverView .icon.back,
+.popAchievements div.tapView .icon.back {
+    background-position: 0 -2rem
+}
+.advert320x50 {
+    height: 50px;
+    overflow: hidden
+}
+.advert300x250 {
+    height: 250px;
+    overflow: hidden
+}
+.advert320x50 {
+    height: 50px;
+    overflow: hidden
+}
+.advert300x250 {
+    height: 250px;
+    overflow: hidden
+}
+body.MSIE .buttonImages .content .buttonText {
+    top: 17%
+}
+body.MSIE .allPoints span {
+    display: block;
+    margin-top: 25%
+}
+body.MSIE .pieces .piece div {
+    text-align: center
+}

@@ -1,0 +1,425 @@
+<div id="editWrapper">
+    <div id="floatForm">
+    	Select Mode:<br/>
+        <select id="modelist" name="modelist">
+        	<option>landscape</option>
+            <option>portrait</option>
+        </select><br/><br/>
+        
+        <div id='selectQuestionWrapper'>
+            Select Questions:<br/>
+            <select id="questionslist" name="questionslist">
+            </select><br/>
+            <input id="prevQuestion" name="prevQuestion" class="button" type="button" value="Prev Question">
+            <input id="nextQuestion" name="nextQuestion" class="button" type="button" value="Next Question">
+            <br/><br/>
+        </div>
+        <div id='topWrapper'>
+            Options:
+            <input id="removeQuestion" name="removeQuestion" type="button" value="Remove Question">
+            <input id="sortQuestion" name="sortQuestion" type="button" value="Sort Question">
+            <input id="newQuestion" name="newQuestion" type="button" value="New Question">
+            <br/><br/>
+        </div>
+        
+        <div id="actionWrapper">
+            <input id='editQuestion' name="editQuestion" type="button" value="Edit Question" />
+            <input id='editVideo' name="editVideo" type="button" value="Edit Video" />
+            <input id='editAnswers' name="editAnswers" type="button" value="Edit Answers" />
+            <input id='editInputs' name="editInputs" type="button" value="Edit Inputs" />
+            <input id='editExplanation' name="editExplanation" type="button" value="Edit Explanation" />
+            <br/><br/>
+            <input id='generateXML' name="generateXML" type="button" value="Generate XML" />
+            <textarea id="outputXML" name="outputXML" cols="" rows="10"></textarea>
+            <input id='saveXML' name="saveXML" type="button" value="Save XML" />
+        </div>
+        
+        <div id='sortWrapper' style="display:none;">
+            Question list:
+           <select id="sortquestionslist" name="sortquestionslist" size="10">
+            </select>
+            <br/><br/>
+            <input id='moveQuestionUp' name="moveQuestionUp" class="button" type="button" value="Move Up" />
+            <input id='moveQuestionDown' name="moveQuestionDown" class="button" type="button" value="Move Down" />
+            <input id='doneSort' name="doneSort" type="button" value="Done" />
+        </div>
+        
+        <div id='templateWrapper' style="display:none;">
+            Select template to add:
+           <select id="templatelist" name="templatelist" size="10">
+            </select>
+            <br/><br/>
+            <input id='addNewTemplate' name="addNewTemplate" type="button" value="Add Question" />
+            <input id='doneTemplate' name="doneTemplate" type="button" value="Done" />
+        </div>
+        
+        <div id='questionWrapper' style="display:none;">
+        	Edit Question: 
+            <div class="formRow">
+                <label class="button">Category:</label>
+                <input id="category" name="category" class="button" type="text" />
+            </div>
+            <br/><br/>
+            
+            <div class="formRow">
+                <label class="button">Type:</label>
+                <select id="questiontype" class="half" name="questiontype">
+                    <option value="text">text</option>
+                    <option value="image">image</option>
+                </select>
+            </div><br/>
+            Text or image path:
+            <textarea id="questionText" name="questionText" cols="" rows=""></textarea>
+            <br/><br/><br/><br/>
+            <div class="formRow" style="height:22px; margin-top:20px;">
+                <label class="button">Font Size:</label>
+                <input id="questionFontSize" name="questionFontSize" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Line Height:</label>
+                <input id="questionLineHeight" name="questionLineHeight" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Color:</label>
+                <input id="questionColor" name="questionColor" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Text Align:</label>
+                <select id="questionAlign" class="half" name="questionAlign">
+                    <option value="left">left</option>
+                    <option value="center">center</option>
+                    <option value="right">right</option>
+                </select>
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Width (0-100)%:</label>
+                <input id="questionWidth" name="questionWidth" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Height (0-100)%:</label>
+                <input id="questionHeight" name="questionHeight" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Top (0-100)%:</label>
+                <input id="questionTop" name="questionTop" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Left (0-100)%:</label>
+                <input id="questionLeft" name="questionLeft" class="button" type="text" />
+            </div>
+            <label class="button">Audio:</label>
+            <input id="questionAudio" name="questionAudio" type="text" />
+            <br/><br/>
+            
+            <input id='previewQuestion' name="previewQuestion" type="button" value="Preview Question" />
+            <input id='doneQuestion' name="doneQuestion" type="button" value="Done" />
+        </div>
+        
+        <div id='videoWrapper' style="display:none;">
+        	Edit Video:<br/><br/>
+        
+        	Video list:
+            <select id="videoslist" name="videoslist">
+            </select>
+            
+            <input id="prevVideo" name="prevVideo" class="button" type="button" value="Prev Video">
+            <input id="nextVideo" name="nextVideo" class="button" type="button" value="Next Video">
+            
+            <input id="removeVideo" name="removeVideo" type="button" value="Remove Video Type">
+            <input id="addVideo" name="addVideo" type="button" value="Add Video Type">
+            <br/><br/>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Type:</label>
+                <select id="videotype" class="half" name="videotype">
+                    <option value="video/mp4">video/mp4</option>
+                    <option value="video/webm">video/webm</option>
+                    <option value="video/ogg">video/ogg</option>
+                </select>
+            </div>
+            Video path:
+            <input id="videoSrc" name="videoSrc" type="text" />
+            <br/><br/>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Autoplay:</label>
+                <select id="videoAutoplay" class="half" name="videoAutoplay">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </select>
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Controls:</label>
+                <select id="videoControls" class="half" name="videoControls">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </select>
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Width (0-100)%:</label>
+                <input id="videoWidth" name="videoWidth" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Height (0-100)%:</label>
+                <input id="videoHeight" name="videoHeight" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Top (0-100)%:</label>
+                <input id="videoTop" name="videoTop" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Left (0-100)%:</label>
+                <input id="videoLeft" name="videoLeft" class="button" type="text" />
+            </div>
+            <br/><br/>
+            
+            <input id='previewVideo' name="previewVideo" type="button" value="Preview Video" />
+            <input id='doneVideo' name="doneVideo" type="button" value="Done" />
+        </div>
+        
+        <div id='answersWrapper' style="display:none;">
+            Edit Answers:
+            <div class="formRow" style="height:22px;">
+                <label class="button">Correct Answer:</label>
+                <input id="correctAnswer" name="correctAnswer" class="button" type="text" />
+            </div>
+            
+            Answer list:
+            <select id="answerslist" name="answerslist">
+            </select>
+            
+            <input id="prevAnswer" name="prevAnswer" class="button" type="button" value="Prev Answer">
+            <input id="nextAnswer" name="nextAnswer" class="button" type="button" value="Next Answer">
+            
+            <input id="removeAnswer" name="removeAnswer" type="button" value="Remove Answer">
+            <input id="addAnswer" name="addAnswer" type="button" value="Add Answer">
+            <br/><br/>
+            
+            <div class="formRow">
+                <label class="button">Sumbit button:</label>
+                <select id="answerSubmit" class="half" name="inputSubmit">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </select>
+            </div><br/><br/>
+            
+            <div class="formRow">
+                <label class="button">Type:</label>
+                <select id="answertype" class="half" name="answertype">
+                    <option value="text">text</option>
+                    <option value="image">image</option>
+                </select>
+            </div><br/>
+            
+            Text or image path:
+            <textarea id="answerText" name="answerText" cols="" rows="1"></textarea>
+            <br/><br/><br/><br/>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Font Size:</label>
+                <input id="answerFontSize" name="answerFontSize" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Line Height:</label>
+                <input id="answerLineHeight" name="answerLineHeight" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Color:</label>
+                <input id="answerColor" name="answerColor" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Offset Top (0-100)%:</label>
+                <input id="answerOffsetTop" name="answerOffsetTop" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Align:</label>
+                <select id="answerAlign" class="half" name="answerAlign">
+                    <option value="left">left</option>
+                    <option value="center">center</option>
+                    <option value="right">right</option>
+                </select>
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Width (0-100)%:</label>
+                <input id="answerWidth" name="answerWidth" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Height (0-100)%:</label>
+                <input id="answerHeight" name="answerHeight" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Top (0-100)%:</label>
+                <input id="answerTop" name="answerTop" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Left (0-100)%:</label>
+                <input id="answerLeft" name="answerLeft" class="button" type="text" />
+            </div>
+            
+            <label class="button">Audio:</label>
+            <input id="answerAudio" name="answerAudio" type="text" />
+            <br/><br/>
+            
+            <input id='previewAnswer' name="previewAnswer" type="button" value="Preview Answer" />
+            <input id='doneAnswer' name="doneAnswer" type="button" value="Done" />
+        </div>
+        
+        <div id='inputsWrapper' style="display:none;">
+            Edit inputs:
+            <select id="inputslist" name="inputslist">
+            </select>
+            
+            <input id="prevInput" name="prevInput" class="button" type="button" value="Prev Input">
+            <input id="nextInput" name="nextInput" class="button" type="button" value="Next Input">
+            
+            <input id="removeInput" name="removeInput" type="button" value="Remove Input">
+            <input id="addInput" name="addInput" type="button" value="Add Input">
+            <br/><br/>
+            
+            <div class="formRow">
+                <label class="button">Sumbit button:</label>
+                <select id="inputSubmit" class="half" name="inputSubmit">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </select>
+            </div><br/><br/>
+            
+            <div class="formRow">
+                <label class="button">Type:</label>
+                <select id="inputtype" class="half" name="inputtype">
+                	<option value="blank">blank</option>
+                    <option value="text">text</option>
+                    <option value="image">image</option>
+                </select>
+            </div><br/><br/>
+            
+            Placeholder, text or image path:
+            <textarea id="inputText" name="inputText" cols="" rows="1"></textarea>
+            <br/><br/><br/><br/>
+            <div id="correctInputWrapper" class="formRow" style="height:22px;">
+                <label class="button">Correct Input:</label>
+                <input id="correctInput" name="correctInput" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Font Size:</label>
+                <input id="inputFontSize" name="inputFontSize" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Line Height:</label>
+                <input id="inputLineHeight" name="inputLineHeight" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Offset Top (0-100)%:</label>
+                <input id="inputOffsetTop" name="inputOffsetTop" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Color:</label>
+                <input id="inputColor" name="inputColor" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Background:</label>
+                <input id="inputBackground" name="inputBackground" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Align:</label>
+                <select id="inputAlign" class="half" name="inputAlign">
+                    <option value="left">left</option>
+                    <option value="center">center</option>
+                    <option value="right">right</option>
+                </select>
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Width (0-100)%:</label>
+                <input id="inputWidth" name="inputWidth" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Height (0-100)%:</label>
+                <input id="inputHeight" name="inputHeight" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Top (0-100)%:</label>
+                <input id="inputTop" name="inputTop" class="button" type="text" />
+            </div>
+            
+            <div class="formRow" style="height:22px;">
+                <label class="button">Left (0-100)%:</label>
+                <input id="inputLeft" name="inputLeft" class="button" type="text" />
+            </div>
+            <br/><br/>
+            
+            <input id='previewInput' name="previewInput" type="button" value="Preview Input" />
+            <input id='doneInput' name="doneInput" type="button" value="Done" />
+        </div>
+        
+        <div id='explanationWrapper' style="display:none;">
+        	Edit Explanation:
+            <div class="formRow">
+                <label class="button">Type:</label>
+                <select id="explanationtype" class="half" name="explanationtype">
+                    <option value="text">text</option>
+                    <option value="image">image</option>
+                </select>
+            </div><br/>
+            Text or image path:
+            <textarea id="explanationText" name="explanationText" cols="" rows=""></textarea>
+            <br/><br/><br/><br/>
+            <div class="formRow" style="height:22px; margin-top:20px;">
+                <label class="button">Font Size:</label>
+                <input id="explanationFontSize" name="explanationFontSize" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Line Height:</label>
+                <input id="explanationLineHeight" name="explanationLineHeight" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Color:</label>
+                <input id="explanationColor" name="explanationColor" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Text Align:</label>
+                <select id="explanationAlign" class="half" name="explanationAlign">
+                    <option value="left">left</option>
+                    <option value="center">center</option>
+                    <option value="right">right</option>
+                </select>
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Top (0-100)%:</label>
+                <input id="explanationTop" name="explanationTop" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Left (0-100)%:</label>
+                <input id="explanationLeft" name="explanationLeft" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Width (0-100)%:</label>
+                <input id="explanationWidth" name="explanationWidth" class="button" type="text" />
+            </div>
+            <div class="formRow" style="height:22px;">
+                <label class="button">Height (0-100)%:</label>
+                <input id="explanationHeight" name="explanationHeight" class="button" type="text" />
+            </div>
+            <label class="button">Audio:</label>
+            <input id="explanationAudio" name="explanationAudio" type="text" />
+            <br/><br/>
+            
+            <input id='previewExplanation' name="previewExplanation" type="button" value="Preview Explanation" />
+            <input id='doneExplanation' name="doneExplanation" type="button" value="Done" />
+        </div>
+    </div>
+</div>

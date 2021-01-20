@@ -1,0 +1,10 @@
+####################################################
+
+Install all Plugin/Addon and Behavior before open CAPX file.
+
+####################################################
+
+Copy behaviors and plugins folder and paste into folder where Construct 2 installed :  ..\Construct 2\exporters\html5
+
+Open .CAPX file with Construct,  Drag Time Manager.c2addon file into Construct window then Drop here to install the C2Addon 
+

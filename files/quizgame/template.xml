@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Eight Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="38" left="18" height="11"><![CDATA[Answer 1]]></answer>
+				<answer top="38" type="text" left="50" height="11"><![CDATA[Answer 2]]></answer>
+				<answer top="51" type="text" left="18" height="11"><![CDATA[Answer 3]]></answer>
+				<answer top="51" type="text" left="50" height="11"><![CDATA[Answer 4]]></answer>
+				<answer top="65" type="text" left="18" height="11"><![CDATA[Answer 5]]></answer>
+				<answer top="65" type="text" left="50" height="11"><![CDATA[Answer 6]]></answer>
+				<answer top="79" type="text" left="18" height="11"><![CDATA[Answer 7]]></answer>
+				<answer top="79" type="text" left="50" height="11"><![CDATA[Answer 8]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="10"><![CDATA[Eight Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" top="30" height="7" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="7" top="38" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="7" top="46" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="7" top="54" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="7" top="62" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 5]]></answer>
+				<answer width="90" height="7" top="70" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 6]]></answer>
+				<answer width="90" height="7" top="78" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 7]]></answer>
+				<answer width="90" height="7" top="86" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 8]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Eight Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer top="45" type="text" width="25" left="10"><![CDATA[Answer 1]]></answer>
+				<answer top="45" type="text" left="37.5" width="25"><![CDATA[Answer 2]]></answer>
+				<answer top="45" type="text" left="65" width="25"><![CDATA[Answer 3]]></answer>
+				<answer top="62" type="text" left="10" width="25"><![CDATA[Answer 4]]></answer>
+				<answer top="62" type="text" left="37.5" width="25"><![CDATA[Answer 5]]></answer>
+				<answer top="62" type="text" left="65" width="25"><![CDATA[Answer 6]]></answer>
+				<answer top="79" type="text" left="23" width="25"><![CDATA[Answer 7]]></answer>
+				<answer top="79" type="text" left="51" width="25"><![CDATA[Answer 8]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="35"><![CDATA[Eight Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" top="30" height="7" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="7" top="38" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="7" top="46" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="7" top="54" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="7" top="62" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 5]]></answer>
+				<answer width="90" height="7" top="70" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 6]]></answer>
+				<answer width="90" height="7" top="78" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 7]]></answer>
+				<answer width="90" height="7" top="86" type="text" fontSize="25" lineHeight="25" offsetTop="-12"><![CDATA[Answer 8]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Seven Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="38" left="18" height="11"><![CDATA[Answer 1]]></answer>
+				<answer top="38" type="text" left="50" height="11"><![CDATA[Answer 2]]></answer>
+				<answer top="51" type="text" left="18" height="11"><![CDATA[Answer 3]]></answer>
+				<answer top="51" type="text" left="50" height="11"><![CDATA[Answer 4]]></answer>
+				<answer top="65" type="text" left="18" height="11"><![CDATA[Answer 5]]></answer>
+				<answer top="65" type="text" left="50" height="11"><![CDATA[Answer 6]]></answer>
+				<answer top="79" type="text" left="34" height="11"><![CDATA[Answer 7]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="35"><![CDATA[Seven Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" top="30" height="8" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="8" top="39" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="8" top="48" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="8" top="57" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="8" top="66" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 5]]></answer>
+				<answer width="90" height="8" top="75" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 6]]></answer>
+				<answer width="90" height="8" top="84" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 7]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Seven Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer top="45" type="text" width="25" left="10"><![CDATA[Answer 1]]></answer>
+				<answer top="45" type="text" left="37.5" width="25"><![CDATA[Answer 2]]></answer>
+				<answer top="45" type="text" left="65" width="25"><![CDATA[Answer 3]]></answer>
+				<answer top="62" type="text" left="10" width="25"><![CDATA[Answer 4]]></answer>
+				<answer top="62" type="text" left="37.5" width="25"><![CDATA[Answer 5]]></answer>
+				<answer top="62" type="text" left="65" width="25"><![CDATA[Answer 6]]></answer>
+				<answer top="79" type="text" left="37.5" width="25"><![CDATA[Answer 7]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="35"><![CDATA[Seven Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" top="30" height="8" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="8" top="39" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="8" top="48" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="8" top="57" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="8" top="66" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 5]]></answer>
+				<answer width="90" height="8" top="75" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 6]]></answer>
+				<answer width="90" height="8" top="84" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 7]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Six Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="40" left="18"><![CDATA[Answer 1]]></answer>
+				<answer top="40" type="text" left="50"><![CDATA[Answer 2]]></answer>
+				<answer top="57" type="text" left="18"><![CDATA[Answer 3]]></answer>
+				<answer top="57" type="text" left="50"><![CDATA[Answer 4]]></answer>
+				<answer top="74" type="text" left="18"><![CDATA[Answer 5]]></answer>
+				<answer top="74" type="text" left="50"><![CDATA[Answer 6]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[Six Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="8" top="36" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="8" top="45" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="8" top="54" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="8" top="63" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="8" top="72" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 5]]></answer>
+				<answer width="90" height="8" top="81" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 6]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Six Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="55" width="25" left="10"><![CDATA[Answer 1]]></answer>
+				<answer top="55" type="text" left="37.5" width="25"><![CDATA[Answer 2]]></answer>
+				<answer top="55" type="text" left="65" width="25"><![CDATA[Answer 3]]></answer>
+				<answer top="72" type="text" left="10" width="25"><![CDATA[Answer 4]]></answer>
+				<answer top="72" type="text" left="37.5" width="25"><![CDATA[Answer 5]]></answer>
+				<answer top="72" type="text" left="65" width="25"><![CDATA[Answer 6]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[Six Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="8" top="36" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="8" top="45" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="8" top="54" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="8" top="63" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="8" top="72" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 5]]></answer>
+				<answer width="90" height="8" top="81" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 6]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Five Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer top="34" type="text" width="40" left="30" height="11"><![CDATA[Answer 1]]></answer>
+				<answer top="46" type="text" left="30" width="40" height="11"><![CDATA[Answer 2]]></answer>
+				<answer top="58" type="text" left="30" width="40" height="11"><![CDATA[Answer 3]]></answer>
+				<answer top="70" type="text" left="30" width="40" height="11"><![CDATA[Answer 4]]></answer>
+				<answer top="82" type="text" left="30" width="40" height="11"><![CDATA[Answer 5]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[Five Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="36" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="10" top="80" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 5]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Five Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer top="40" type="text" width="35" left="14"><![CDATA[Answer 1]]></answer>
+				<answer top="40" type="text" left="51" width="35"><![CDATA[Answer 2]]></answer>
+				<answer top="57" type="text" left="14" width="35"><![CDATA[Answer 3]]></answer>
+				<answer top="57" type="text" left="51" width="35"><![CDATA[Answer 4]]></answer>
+				<answer top="74" type="text" left="32" width="35"><![CDATA[Answer 5]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[Five Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="36" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="10" top="80" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 5]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category></category>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Five Answers Layout 3]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="55" width="25" left="10"><![CDATA[Answer 1]]></answer>
+				<answer top="55" type="text" left="37.5" width="25"><![CDATA[Answer 2]]></answer>
+				<answer top="55" type="text" left="65" width="25"><![CDATA[Answer 3]]></answer>
+				<answer top="72" type="text" left="23" width="25"><![CDATA[Answer 4]]></answer>
+				<answer top="72" type="text" left="51" width="25"><![CDATA[Answer 5]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[Five Answers Layout 3]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="36" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+				<answer width="90" height="10" top="80" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 5]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="15"><![CDATA[Four Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer top="36" type="text" width="40" left="30" height="11"><![CDATA[Answer 1]]></answer>
+				<answer top="49" type="text" left="30" width="40" height="11"><![CDATA[Answer 2]]></answer>
+				<answer top="62" type="text" left="30" width="40" height="11"><![CDATA[Answer 3]]></answer>
+				<answer top="75" type="text" left="30" width="40" height="11"><![CDATA[Answer 4]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[Four Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="35" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text"><![CDATA[Four Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[Answer 1]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Answer 2]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[Answer 3]]></answer>
+				<answer top="65" type="text" left="51" width="35"><![CDATA[Answer 4]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[Four Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="35" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 3]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 4]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text" top="20"><![CDATA[Three Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="40" width="40" left="30"><![CDATA[Answer 1]]></answer>
+				<answer top="56" type="text" left="30" width="40"><![CDATA[Answer 2]]></answer>
+				<answer top="72" type="text" left="30" width="40"><![CDATA[Answer 3]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35"><![CDATA[Three Answers Layout 1]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="40" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="52" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="64" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text"><![CDATA[Three Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="55" width="25" left="10"><![CDATA[Answer 1]]></answer>
+				<answer top="55" type="text" left="37.5" width="25"><![CDATA[Answer 2]]></answer>
+				<answer top="55" type="text" left="65" width="25"><![CDATA[Answer 3]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35"><![CDATA[Three Answers Layout 2]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="40" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="52" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="64" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text"><![CDATA[Three Answers Layout 3]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="15"><![CDATA[Answer 1]]></answer>
+				<answer top="48" type="text" left="52" width="35"><![CDATA[Answer 2]]></answer>
+				<answer top="65" type="text" left="33" width="35"><![CDATA[Answer 3]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35"><![CDATA[Three Answers Layout 3]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="40" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="52" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+				<answer width="90" height="10" top="64" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text"><![CDATA[Two Answers Vertical]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="47" width="40" left="30"><![CDATA[Answer 1]]></answer>
+				<answer top="65" type="text" left="30" width="40"><![CDATA[Answer 2]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35"><![CDATA[Two Answers Vertical]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="45" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text"><![CDATA[Two Answers Horizontal]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="55" left="18"><![CDATA[Answer 1]]></answer>
+				<answer top="55" type="text" left="50"><![CDATA[Answer 2]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35"><![CDATA[Two Answers Horizontal]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="45" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 1]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[Answer 2]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category/>
+		<landscape>
+			<question type="text"><![CDATA[Fill in the blank layout 1]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="">?</input>
+				<input type="text" top="65" color="#fff"><![CDATA[OK]]></input>
+			</inputs>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[ Fill in the blank layout 1 ]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="" width="50" left="25"><![CDATA[?]]></input>
+				<input type="text" top="65" color="#fff" left="25" width="50" fontSize="25" lineHeight="25" offsetTop="-20"><![CDATA[OK]]></input>
+			</inputs>
+		</portrait>
+	</item>
+	
+	<item>
+		<category></category>
+		<landscape>
+			<question type="text"><![CDATA[Fill in the blank layout 2]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="" left="25" width="20">?</input>
+				<input type="blank" correctAnswer="" left="55" width="20">?</input>
+				<input type="text" top="65" color="#fff"><![CDATA[OK]]></input>
+			</inputs>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="20" lineHeight="35"><![CDATA[ Fill in the blank layout 2 ]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="" width="50" left="25" top="40">?</input>
+				<input type="blank" correctAnswer="" width="50" left="25" top="65">?</input>
+				<input type="text" top="80" color="#fff" left="25" width="50" fontSize="25" lineHeight="25" offsetTop="-20"><![CDATA[OK]]></input>
+			</inputs>
+		</portrait>
+	</item>
+</questions>

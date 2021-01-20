@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz Game 2</title>
+        
+        <meta name="Title" content="Quiz Game 2" />
+        <meta name="description" content="Quiz Game 2 is a HTML5 game with free general knowledge quiz questions and multiple choice answers, it is rebuild without canvas which can support responsive for landscape and portrait layout, and include the new fill in the blank and video question.">
+		<meta name="keywords" content="quiz, game, multiple, knowledge, questions, choice, answers, layout, input, fill, blank, landscape, portrait">
+        
+        <!-- for Facebook -->
+        <meta property="og:title" content="Quiz Game 2"/>
+        <meta property="og:site_name" content="Quiz Game 2"/>
+        <meta property="og:image" content="http://demonisblack.com/code/quizgame2/game/share.jpg" />
+        <meta property="og:url" content="http://demonisblack.com/code/quizgame2/game/" />
+        <meta property="og:description" content="Quiz Game 2 is a HTML5 game with free general knowledge quiz questions and multiple choice answers, it is rebuild without canvas which can support responsive for landscape and portrait layout, and include the new fill in the blank and video question.">
+        
+        <!-- for Twitter -->
+        <meta name="twitter:title" content="Quiz Game 2" />
+        <meta name="twitter:description" content="Quiz Game 2 is a HTML5 game with free general knowledge quiz questions and multiple choice answers, it is rebuild without canvas which can support responsive for landscape and portrait layout, and include the new fill in the blank and video question." />
+        <meta name="twitter:image" content="http://demonisblack.com/code/quizgame2/game/share.jpg" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    "@-ms-viewport{width:device-width}"
+                )
+            );
+            document.getElementsByTagName("head")[0].
+                appendChild(msViewportStyle);
+        }
+        </script>
+
+        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!-- PERCENT LOADER START-->
+    	<div id="mainLoader"><img src="assets/loader.png" /><br><span>0</span></div>
+        <!-- PERCENT LOADER END-->
+        
+        <!-- CONTENT START-->
+        <div id="mainHolder">
+        	<div id="option" class="fitImg">
+            	<div id="buttonOption" class="buttonClick buttonIcon buttonOptionOff"><img class="optionOff" alt="Begin" src="assets/button_option_close.png" /><img class="optionOn" alt="Begin" src="assets/button_option.png" /></div>
+                <div id="optionList" style="display:none;">
+                	<div id="buttonFullscreen" class="buttonClick buttonIcon buttonFullscreen"><img alt="Begin" src="assets/button_fullscreen.png" /></div>
+                    <div id="buttonSound" class="buttonClick buttonIcon buttonSound buttonSoundOn"><img class="soundOff" alt="Begin" src="assets/button_sound_off.png" /><img class="soundOn" alt="Begin" src="assets/button_sound_on.png" /></div>
+                	<div id="buttonExit" class="buttonClick buttonIcon buttonExit"><img alt="Begin" src="assets/button_exit.png" /></div>
+                    
+                </div>
+            </div>
+            
+            <div id="logoHolder">
+            	<div class="mainContent fitImg">
+                	<div class="logo"><img src="assets/logo.png"/></div>
+                    <div class="preloadText fontPreload resizeFont"></div>
+            		<div id="buttonStart" class="startImg buttonClick"><img src="assets/button_start.png"/></div>
+                </div>
+            </div>
+            
+            <div id="confirmHolder" class="overlayBg">
+            	<div class="confirmContent">
+                	<div class="message fontMessage resizeFont ignorePadding" data-fontSize="30" data-lineHeight="30">Are you sure you want to quit the game?</div>
+            		<div id="buttonOk" class="okImg buttonClick fitImg"><img src="assets/button_ok.png"/></div>
+                	<div id="buttonCancel" class="cancelImg buttonClick fitImg"><img src="assets/button_cancel.png"/></div>
+                </div>
+            </div>
+            
+            <div id="categoryHolder">
+            	<div class="categoryContent fitImg">
+                	<div id="buttonNextCat" class="nextImg buttonClick fitImg"><img src="assets/button_next.png"/></div>
+                    <div id="buttonPrevCat" class="prevImg buttonClick fitImg"><img src="assets/button_prev.png"/></div>
+                	<ul id="categoryList"></ul>
+                </div>
+            </div>
+            
+            <div id="gameHolder">
+            	<div id="gameStatus" class="fitImg">
+                	<div class="gameTotal fontStatus">
+                    	<div class="gameQuestionStatus resizeFont" data-fontSize="30" data-lineHeight="30">1/18</div>
+                        <img class="soundOn" alt="Begin" src="assets/item_question.png" />
+                    </div>
+                    <div class="gameTimer fontStatus">
+                    	<div class="gameTimerStatus resizeFont" data-fontSize="30" data-lineHeight="30">35</div>
+                        <img class="soundOn" alt="Begin" src="assets/item_timer.png" />
+                    </div>
+                </div>
+                
+                <div id="questionLoaderHolder">
+                	
+                </div>
+                
+            	<div id="questionHolder">
+                	<div class="questionText fontQuestion">How much is 150% of 50<br/>How much is 150% of 50</div>
+                </div>
+                
+                <div id="questionResultHolder">
+                	<div id="explanationHolder"></div>
+                    <div class="questionResultText fontCorrectWrong"></div>
+                    <div id="buttonNextQues" class="nextImg fontCorrectWrong buttonClick fitImg"><img src="assets/button_next.png"/></div>
+                    <div id="buttonPreviewQues" class="previewImg fontCorrectWrong buttonClick fitImg"><img src="assets/button_preview.png"/></div>
+                </div>
+            </div>
+            
+            <div id="resultHolder">
+            	<div class="resultExtra overlayBg fitImg">
+                    <div class="submitContent">
+                        <div class="fontSubmitTitle resizeFont submitTitle" data-fontSize="50" data-lineHeight="50"></div>
+                        <div class="fontLabel label resizeFont">Name:</div>
+                        <input id="uName" name="uName" type="text" class="fontInput resizeFont">
+                        <div class="fontLabel label resizeFont">Email:</div>
+                        <input id="uEmail" name="uEmail" type="text" class="fontInput resizeFont">
+                        <div class="action">
+                        	<div id="buttonSubmit" class="buttonSubmit buttonClick"><img src="assets/button_submit.png"/></div>
+                            <div id="buttonCancelSubmit" class="buttonCancelSubmit buttonClick"><img src="assets/button_cancel.png"/></div>
+                        </div>
+                    </div>
+                    <div class="scoreContent">
+                        <div class="fontScoreTitle resizeFont scoreTitle" data-fontSize="50" data-lineHeight="50"></div>
+                        <ul class="scoreList">
+                        	
+                        </ul>
+                        <div id="buttonBack" class="buttonBack buttonClick"><img src="assets/button_back.png"/></div>
+                    </div>
+                </div>
+                
+            	<div class="resultContent fitImg">
+                	<div class='itemWinnerCup'><img src="assets/item_cup.png" /></div>
+                    
+                    <div id='resultScore' class="fontResultScore fontScore resizeFont" data-fontSize="50" data-lineHeight="50">100</div>
+                    <div class="option singleOption">
+                        <ul>
+                            <li id="buttonReplay" class="buttonClick fitImg"><img alt="Replay" src="assets/button_replay.png" /></li>
+                            <li id="buttonSave" class="buttonClick fitImg"><img alt="Replay" src="assets/button_save.png" /></li>
+                            <li id="buttonScore" class="buttonClick fitImg"><img alt="Replay" src="assets/button_score.png" /></li>
+                        </ul>
+                    </div>
+                    <div id="shareOption" class="share">
+                        <div class="fontShare resizeFont" data-fontSize="30" data-lineHeight="30">Share you score</div>
+                        <ul>
+                            <li id="buttonFacebook" class="buttonClick fitImg"><img alt="Facebook" src="assets/button_facebook.png" /></li>
+                            <li id="buttonTwitter" class="buttonClick fitImg"><img alt="Twitter" src="assets/button_twitter.png" /></li>
+                            <li id="buttonGoogle" class="buttonClick fitImg"><img alt="Google" src="assets/button_google.png" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT END-->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+        
+        <script src="js/vendor/detectmobilebrowser.js"></script>
+        <script src="js/vendor/createjs-2015.11.26.min.js"></script>
+		<script src="js/vendor/TweenMax.min.js"></script>
+        
+        <script src="js/plugins.js"></script>
+        <script src="js/sound.js"></script>
+        <script src="js/score.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/loader.js"></script>
+        <script src="js/init.js"></script>
+    </body>
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-86567323-13', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</html>

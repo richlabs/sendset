@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Flip Card Memory Test - HTML5 Game">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="apple-mobile-web-app-capable content=yes">
+    <meta name="apple-mobile-web-app-status-bar-style content=black">
+    <meta name="viewport" content="width=device-width; maximum-scale=1.0; user-scalable=0;target-densitydpi=device-dpi" />
+
+    <title>Flip Card Memory Test - HTML5 Game</title>
+
+    <link rel="icon type=image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link href='https://fonts.googleapis.com/css?family=Skranji' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <div class="orientation">
+        <div class="orientationImg"></div>
+    </div>
+    
+    <div class="gameContainer" id="gameContainer">
+        <div class="gameWrapper" id="gameWrapper">
+            <div class="backgroudLeft"></div>
+            <div class="backgroudCenter">
+
+                <div id="pageIntro" class="page pageIntro hidden">
+                    <div class="gameLogo"></div>
+                    <div class="splashAnimals"></div>
+                    <div class="loaderBox" id="loaderBox">
+                        <div class="loaderBar">
+                            <div class="progress">
+                                <div class="progressBarCenter" id="progressBarPercent"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="startGame button buttonImages hidden" id="startGame">
+                        <div class="content"> <img src="img/gui/buttons/normal.png" class="button normal" alt="" /> <img src="img/gui/buttons/normalHover.png" class="button hover" alt="" />
+                            <div class="buttonText"><span name="lang" title="play"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pageMenu" class="page pageMenu hidden">
+                    <div class="left">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="right">
+                        <div class="bluePopup">
+                            <div class="menu">
+                                <div class="row newGame button buttonImages" id="newGame">
+                                    <div class="content"> <img src="img/gui/buttons/normal.png" class="button normal" alt="" /> <img src="img/gui/buttons/normalHover.png" class="button hover" alt="" />
+                                        <div class="buttonText"><span name="lang" title="newGame"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gameMode">
+                                    <div class="scroller">
+                                        <div class="gameModeOption anim option1" id="gameModeSelect"> <span name="lang" title="easyMode"></span> <span name="lang" title="normalMode"></span> <span name="lang" title="hardMode"></span> </div>
+                                    </div>
+                                    <div class="arrow arrowLeft button" id="gameModePrev">
+                                        <div class="icon arrowLeft"></div>
+                                    </div>
+                                    <div class="arrow arrowRight button" id="gameModeNext">
+                                        <div class="icon arrowRight"></div>
+                                    </div>
+                                </div>
+                                <div class="row button buttonImages scoreBnt" id="score">
+                                    <div class="content"> <img src="img/gui/buttons/normal.png" class="button normal" alt="" /> <img src="img/gui/buttons/normalHover.png" class="button hover" alt="" />
+                                        <div class="buttonText"><span name="lang" title="gallery"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row button buttonImages moreGames" id="moreGames">
+                                    <div class="content"> <img src="img/gui/buttons/normal.png" class="button normal" alt="" /> <img src="img/gui/buttons/normalHover.png" class="button hover" alt="" />
+                                        <div class="buttonText"><span name="lang" title="moreGames"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </diV>
+                    </div>
+                </div>
+
+                <div id="pageGame" class="page pageGame hidden">
+                    <div class="gameHud">
+                        <div class="col center button" id="gameBack">
+                            <div class="icon back"></div>
+                        </div>
+                        <div class="col hudContainer">
+                            <div class="leftCol col"></div>
+                            <div class="centerCol col">
+                                <div class="col">
+                                    <div class="text center col"><span name="lang" title="bonus" class="center"></span>
+                                    </div>
+                                    <div class="blueBox center col"><span id="gameTimmer" class="center">2:01</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="text center col"><span name="lang" title="score" class="center"></span>
+                                    </div>
+                                    <div class="blueBox center col"><span id="gameScore" class="center">150</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightCol col"></div>
+                        </div>
+                        <div class="col center button gameMusic on" id="gameMusic">
+                            <div class="icon mute"></div>
+                            <div class="icon unmute"></div>
+                        </div>
+                    </div>
+                    <div class="girl"></div>
+                    <div class="cardContainer gameMode3" id="cardContainer">
+                        <div class="card col1 row1 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col2 row1 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col3 row1 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col4 row1 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col5 row1 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col1 row2 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col2 row2 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col3 row2 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col4 row2 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col5 row2 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col1 row3 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col2 row3 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col3 row3 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col4 row3 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col5 row3 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col1 row4 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col2 row4 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col3 row4 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col4 row4 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                        <div class="card col5 row4 back">
+                            <div class="cardBack"></div>
+                            <div class="cardFront"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pageFinalImage" class="page pageFinalImage hidden">
+                    <div class="topBar">
+                        <div class="backButton button" id="imgBack">
+                            <div class="icon back"></div>
+                        </div>
+                        <div class="hud">
+                            <div class="leftCol col"></div>
+                            <div class="centerCol col">
+                                <div class="text center col"><span name="lang" class="center" title="score"></span>
+                                </div>
+                                <div class="blueBox col">
+                                    <div class="col1 center"> <span class="allScore center" id="allScore">xxx</span> </div>
+                                    <div class="col2 center">
+                                        <div class="star small center"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightCol col"></div>
+                        </div>
+                    </div>
+
+                    <div class="imageContainer">
+                        <div id="finalImage" class="image noSize">
+                            <div class="wrapper">
+                                <div class="bgImage" id="bgImage"></div>
+                                <div class="pieces">
+                                    <div class="piece piece1 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                    <div class="piece piece2 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                    <div class="piece piece3 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                    <div class="piece piece4 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                    <div class="piece piece5 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                    <div class="piece piece6 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                    <div class="piece piece7 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                    <div class="piece piece8 anim">
+                                        <div class="center"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="backgroudRight"></div>
+
+            <div id="popups" class="popups hidden">
+                <div id="coverLayer" class="coverLayer"></div>
+                <div id="popSettings" class="popup popSettings centerV hidden">
+                    <div class="boxWrapper">
+                        <div class="boxInner">
+                            <div class="boxContent">
+                                <div class="row center title"><span name="lang" title="settings"></span>
+                                </div>
+                                <div id="settingsOption2" class="row centerHC off">
+                                    <div class="button centerH"><span name="lang" title="on" class="on"></span><span name="lang" title="off" class="off"></span>
+                                    </div>
+                                    <div name="lang" title="sound" class="text centerH"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxOuter">
+                            <div class="button buttonImages close" id="settingsBack">
+                                <div class="content"> <img src="img/gui/buttons/small.png" class="button normal" alt="" /> <img src="img/gui/buttons/smallHover.png" class="button hover" alt="" />
+                                    <div class="buttonText"><span name="lang" title="back"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="popQuit" class="popup popQuit centerV hidden">
+                    <div class="boxWrapper">
+                        <div class="boxInner">
+                            <div class="boxContent">
+                                <div class="row center question" name="lang" title="quitQuestion"></div>
+                                <div class="row buttonsBox centerHC">
+                                    <div id="quitNo" class="col button center no"> <span name="lang" title="no"></span> </div>
+                                    <div id="quitYes" class="col button center yes"> <span name="lang" title="yes"></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="popWin" class="popup popWin popWinLose centerV hidden">
+                    <div class="boxWrapper">
+                        <div class="boxInner">
+                            <div class="boxContent">
+                                <div class="row center title"><span name="lang" title="winTitle"></span>
+                                </div>
+                                <div class="scoreBox">
+                                    <div class="row">
+                                        <div class="col text"><span name="lang" title="score"></span>:</div>
+                                        <div class="col"><span id="winMainScore"></span>
+                                            <div class="star small"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text"><span name="lang" title="bonus"></span>:</div>
+                                        <div class="col"><span id="winBonusScore"></span>
+                                            <div class="star small"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text"></div>
+                                        <div class="col sumScore"><span id="winSumScore"></span>
+                                            <div class="star small"></div>
+                                        </div>
+                                    </div>
+                                    <div class="allPoints center star big"><span class="center" id="winAllPoints"></span>
+                                    </div>
+                                    <div class="winImg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxOuter">
+
+                            <div id="winGallery" class="button buttonImages winGallery">
+                                <div class="content"> <img src="img/gui/buttons/small.png" class="button normal" alt="" /> <img src="img/gui/buttons/smallHover.png" class="button hover" alt="" />
+                                    <div class="buttonText"><span name="lang" title="gallery"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button buttonImages close">
+                                <div class="content"> <img src="img/gui/buttons/small.png" class="button normal" alt="" /> <img src="img/gui/buttons/smallHover.png" class="button hover" alt="" />
+                                    <div class="buttonText"><span name="lang" title="ok"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="popAchievements" class="popup popAchievements centerV hidden">
+                    <div class="closePop button" id="archBack">
+                        <div class="wrapper">
+                            <div class="icon back"></div>
+                        </div>
+                    </div>
+                    <div class="boxWrapper">
+                        <div class="boxInner">
+                            <div class="boxContent">
+                                <div class="row center title"><span name="lang" title="gallery"></span>
+                                </div>
+                                <div class="imageList">
+                                    <div class="oneImage button" id="archImg1">
+                                        <div class="image image1">
+                                            <div class="img"></div>
+                                        </div>
+                                        <div class="amount"><span class="unlockAmount">0</span> / <span>8</span>
+                                        </div>
+                                    </div>
+                                    <div class="oneImage button" id="archImg2">
+                                        <div class="image image2">
+                                            <div class="img"></div>
+                                        </div>
+                                        <div class="amount"><span class="unlockAmount">0</span> / <span>8</span>
+                                        </div>
+                                    </div>
+                                    <div class="oneImage button last" id="archImg3">
+                                        <div class="image image3">
+                                            <div class="img"></div>
+                                        </div>
+                                        <div class="amount"><span class="unlockAmount">0</span> / <span>8</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="popAdvert" class="popup popAdvert center centerV hidden">
+                    <div class="center title"><span name="lang" title="advertisement">Advertisement</span>
+                    </div>
+                    <div class="advert center advert300x250">
+                        <script type="text/javascript" src="#">
+                        </script>
+                    </div>
+                    <div class="skip">
+                        <div class="button buttonImages">
+                            <div class="content"> <img src="img/gui/buttons/small.png" class="button normal" alt="" /> <img src="img/gui/buttons/smallHover.png" class="button hover" alt="" />
+                                <div class="buttonText"><span name="lang" title="ok"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="advertBottomBar" id="advertBottomBar">
+            <div class="advert advert320x50">
+                <script type="text/javascript" src="#">
+                </script>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

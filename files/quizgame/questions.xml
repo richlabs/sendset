@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<category>
+		<thumb name="IQ Questions (Audio)">assets/item_thumb_1.png</thumb>
+		<thumb name="Math Questions">assets/item_thumb_2.png</thumb>
+		<thumb name="Math Puzzles (Audio)">assets/item_thumb_5.png</thumb>
+		<thumb name="Video">assets/item_thumb_4.png</thumb>
+		<thumb name="All">assets/item_thumb_3.png</thumb>
+	</category>
+	
+	<item>
+		<category>Multiple Choices</category>
+		<landscape>
+			<question type="text" top="15" audio="assets/sounds/questions/iq_q1.ogg"><![CDATA[ Which shape does not fit the others? ]]></question>
+			<answers correctAnswer="2,5">
+				<answer top="40" type="image" width="10" left="15">assets/questions/shape1.png</answer>
+				<answer top="40" type="image" width="10" left="30">assets/questions/shape2.png</answer>
+				<answer top="40" type="image" width="10" left="45">assets/questions/shape3.png</answer>
+				<answer top="40" type="image" width="10" left="60">assets/questions/shape4.png</answer>
+				<answer top="40" type="image" width="10" left="75">assets/questions/shape6.png</answer>
+				<answer top="75" type="text" submit="true" left="32" width="35"><![CDATA[Done]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="30" top="13" lineHeight="30" audio="assets/sounds/questions/iq_q1.ogg"><![CDATA[ Which shape does not fit the others? ]]></question>
+			<answers correctAnswer="2,5">
+				<answer top="25" type="image" width="25" left="17">assets/questions/shape1.png</answer>
+				<answer top="25" type="image" width="25" left="57">assets/questions/shape2.png</answer>
+				<answer top="43" type="image" width="25" left="17">assets/questions/shape3.png</answer>
+				<answer top="43" type="image" width="25" left="57">assets/questions/shape4.png</answer>
+				<answer top="63" type="image" width="25" left="36">assets/questions/shape6.png</answer>
+				<answer top="83" type="text" submit="true" left="23" width="50" fontSize="30" lineHeight="30" height="10"><![CDATA[Done]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Multiple Choices</category>
+		<landscape>
+			<question type="text"><![CDATA[Which is not number?]]></question>
+			<answers correctAnswer="1,3,4">
+				<answer type="text" top="41" width="35" left="14"><![CDATA[Space]]></answer>
+				<answer top="41" type="text" left="51" width="35"><![CDATA[999]]></answer>
+				<answer top="58" type="text" left="14" width="35"><![CDATA[7Eleven]]></answer>
+				<answer top="58" type="text" left="51" width="35"><![CDATA[Sixteen]]></answer>
+				<answer top="75" type="text" submit="true" left="32" width="35"><![CDATA[Done]]></answer>
+			</answers>
+			<inputs/>
+			<explanation/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="20" lineHeight="35"><![CDATA[ Which is not number? ]]></question>
+			<answers correctAnswer="1,3,4">
+				<answer type="text" width="90" height="10" top="35" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[Space]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[999]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[7Eleven]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[Sixteen]]></answer>
+				<answer width="90" height="10" top="85" type="text" fontSize="30" lineHeight="30" offsetTop="-10" submit="true"><![CDATA[Done]]></answer>
+			</answers>
+			<inputs/>
+			<explanation/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" audio="assets/sounds/questions/iq_q3.ogg"><![CDATA[Forest is to tree as tree is to ?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q3_a.ogg"><![CDATA[Plant]]></answer>
+				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q3_b.ogg"><![CDATA[Leaf]]></answer>
+				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q3_c.ogg"><![CDATA[Branch]]></answer>
+				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q3_d.ogg"><![CDATA[Mangrove]]></answer>
+			</answers>
+			<inputs/>
+			<explanation audio="assets/sounds/questions/iq_q3_explain.ogg"><![CDATA[ As forest houses several trees, a tree has many leaves. Branches is a close choice but it is incorrect as all trees do not have branches. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="20" lineHeight="35" audio="assets/sounds/questions/iq_q3.ogg"><![CDATA[ Forest is to tree as tree is to ? ]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="35" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_a.ogg"><![CDATA[Plant]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_b.ogg"><![CDATA[Leaf]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_c.ogg"><![CDATA[Branch]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_d.ogg"><![CDATA[Mangrove]]></answer>
+			</answers>
+			<inputs/>
+			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/iq_q3_explain.ogg"><![CDATA[ As forest houses several trees, a tree has many leaves. Branches is a close choice but it is incorrect as all trees do not have branches. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" top="15" audio="assets/sounds/questions/iq_q1.ogg"><![CDATA[ Which shape does not fit the others? ]]></question>
+			<answers correctAnswer="2">
+				<answer top="40" type="image" width="10" left="15">assets/questions/shape1.png</answer>
+				<answer top="40" type="image" width="10" left="30">assets/questions/shape2.png</answer>
+				<answer top="40" type="image" width="10" left="45">assets/questions/shape3.png</answer>
+				<answer top="40" type="image" width="10" left="60">assets/questions/shape4.png</answer>
+				<answer top="40" type="image" width="10" left="75">assets/questions/shape5.png</answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="18" lineHeight="35" audio="assets/sounds/questions/iq_q1.ogg"><![CDATA[ Which shape does not fit the others? ]]></question>
+			<answers correctAnswer="2">
+				<answer top="35" type="image" width="25" left="17">assets/questions/shape1.png</answer>
+				<answer top="35" type="image" width="25" left="57">assets/questions/shape2.png</answer>
+				<answer top="53" type="image" width="25" left="17">assets/questions/shape3.png</answer>
+				<answer top="53" type="image" width="25" left="57">assets/questions/shape4.png</answer>
+				<answer top="72" type="image" width="25" left="36">assets/questions/shape5.png</answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" audio="assets/sounds/questions/iq_q2.ogg"><![CDATA[Take 2 apples from 3 apples.
+What do you have?]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="2"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff"><![CDATA[OK]]></input>
+			</inputs>
+		</landscape>
+		
+		<portrait>
+			<question type="text" top="20" fontSize="35" lineHeight="35" audio="assets/sounds/questions/iq_q2.ogg"><![CDATA[ Take 2 apples from 3 apples.<br/>What do you have? ]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="2" width="50" left="25" fontSize="50" lineHeight="50"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff" left="25" width="50" fontSize="30" lineHeight="30" offsetTop="-15" correctAnswer="2"><![CDATA[OK]]></input>
+			</inputs>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" fontSize="40" top="20" audio="assets/sounds/questions/iq_q4.ogg"><![CDATA[The following series of numbers contains one number that does not fit the pattern set by the others.
+What number does not fit?  3, 5, 7, 11, 14, 17]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="14"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff" correctAnswer="14"><![CDATA[OK]]></input>
+			</inputs>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="30" top="15" lineHeight="30" audio="assets/sounds/questions/iq_q4.ogg"><![CDATA[The following series of numbers contains one number that does not fit the pattern set by the others.  What number does not fit?  3, 5, 7, 11, 14, 17]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="14" width="50" left="25" fontSize="50" lineHeight="50" top="55"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="70" color="#fff" left="25" width="50" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[OK]]></input>
+			</inputs>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" top="20" audio="assets/sounds/questions/iq_q5.ogg"><![CDATA[A farmer had 17 sheep. All but 9 died.
+How many live sheep were left?]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="9"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff" correctAnswer="9"><![CDATA[OK]]></input>
+			</inputs>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="20" lineHeight="35" audio="assets/sounds/questions/iq_q5.ogg"><![CDATA[A farmer had 17 sheep. All but 9 died. How many live sheep were left?]]></question>
+			<inputs>
+				<input type="blank" correctAnswer="9" width="50" left="25" fontSize="40" lineHeight="40"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff" left="25" width="50" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[OK]]></input>
+			</inputs>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" top="15" audio="assets/sounds/questions/iq_q6.ogg"><![CDATA[ The day after the day after tomorrow is four days before Monday. What day is it today? ]]></question>
+			<answers correctAnswer="1">
+				<answer top="40" type="text" width="35" left="14" audio="assets/sounds/questions/iq_q6_a.ogg"><![CDATA[Monday]]></answer>
+				<answer top="40" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q6_b.ogg"><![CDATA[Tuesday]]></answer>
+				<answer top="57" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q6_c.ogg"><![CDATA[Wednesday]]></answer>
+				<answer top="57" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q6_d.ogg"><![CDATA[Thursday]]></answer>
+				<answer top="74" type="text" left="32" width="35" audio="assets/sounds/questions/iq_q6_e.ogg"><![CDATA[Friday]]></answer>
+			</answers>
+			<inputs/>
+			<explanation audio="assets/sounds/questions/iq_q6_explain.ogg"><![CDATA[ Four days before Monday is Thursday, simply because four days after Thursday is Monday. Besides, day after the day after tomorrow is Thursday only if present day is Monday. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="30" top="12" lineHeight="30" audio="assets/sounds/questions/iq_q6.ogg"><![CDATA[ The day after the day after tomorrow is four days before Monday. What day is it today? ]]></question>
+			<answers correctAnswer="1">
+				<answer type="text" width="90" height="10" top="36" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_a.ogg"><![CDATA[Monday]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_b.ogg"><![CDATA[Tuesday]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_c.ogg"><![CDATA[Wednesday]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_d.ogg"><![CDATA[Thursday]]></answer>
+				<answer width="90" height="10" top="80" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_e.ogg"><![CDATA[Friday]]></answer>
+			</answers>
+			<inputs/>
+			<explanation type="text" fontSize="20" lineHeight="20" audio="assets/sounds/questions/iq_q6_explain.ogg"><![CDATA[ Four days before Monday is Thursday, simply because four days after Thursday is Monday. Besides, day after the day after tomorrow is Thursday only if present day is Monday. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" audio="assets/sounds/questions/iq_q7.ogg"><![CDATA[ Book is to Reading as Fork is to? ]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q7_a.ogg"><![CDATA[Drawing]]></answer>
+				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q7_b.ogg"><![CDATA[Writing]]></answer>
+				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q7_c.ogg"><![CDATA[Stirring]]></answer>
+				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q7_d.ogg"><![CDATA[Eating]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="20" lineHeight="35" audio="assets/sounds/questions/iq_q7.ogg"><![CDATA[ Book is to Reading as Fork is to? ]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_a.ogg"><![CDATA[Drawing]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_b.ogg"><![CDATA[Writing]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_c.ogg"><![CDATA[Stirring]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_d.ogg"><![CDATA[Eating]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" top="17" audio="assets/sounds/questions/iq_q8.ogg"><![CDATA[If Bob sold 15 apples in a working week, what is the average number of apples he sells each day?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q8_a.ogg"><![CDATA[1]]></answer>
+				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q8_b.ogg"><![CDATA[3]]></answer>
+				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q8_c.ogg"><![CDATA[6]]></answer>
+				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q8_d.ogg"><![CDATA[15]]></answer>
+			</answers>
+			<inputs/>
+			<explanation audio="assets/sounds/questions/iq_q8_explain.ogg"><![CDATA[ There are 5 days in a working week, so you divide 15 by 5 = 3. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="text" top="12" fontSize="25" lineHeight="25" audio="assets/sounds/questions/iq_q8.ogg"><![CDATA[If Bob sold 15 apples in a working week, what is the average number of apples he sells each day?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_a.ogg"><![CDATA[1]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_b.ogg"><![CDATA[3]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_c.ogg"><![CDATA[6]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_d.ogg"><![CDATA[15]]></answer>
+			</answers>
+			<inputs/>
+			<explanation type="text" fontSize="30" lineHeight="30" audio="assets/sounds/questions/iq_q8_explain.ogg"><![CDATA[ There are 5 days in a working week, so you divide 15 by 5 = 3. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" audio="assets/sounds/questions/iq_q9.ogg"><![CDATA[“Pig is to pork” as “Cow is to ?”]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q9_a.ogg"><![CDATA[Lamb]]></answer>
+				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q9_b.ogg"><![CDATA[Beef]]></answer>
+				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q9_c.ogg"><![CDATA[Stew]]></answer>
+				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q9_d.ogg"><![CDATA[Cattle]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="20" lineHeight="35" audio="assets/sounds/questions/iq_q9.ogg"><![CDATA[“Pig is to pork” as “Cow is to ?”]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_a.ogg"><![CDATA[Lamb]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_b.ogg"><![CDATA[Beef]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_c.ogg"><![CDATA[Stew]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_d.ogg"><![CDATA[Cattle]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" audio="assets/sounds/questions/iq_q10.ogg"><![CDATA[“Boat is to water” therefore “Plane is to ?”]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q10_a.ogg"><![CDATA[Fly]]></answer>
+				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q10_b.ogg"><![CDATA[Sky]]></answer>
+				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q10_c.ogg"><![CDATA[Float]]></answer>
+				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q10_d.ogg"><![CDATA[Air]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="15" lineHeight="35" audio="assets/sounds/questions/iq_q10.ogg"><![CDATA[“Boat is to water” therefore “Plane is to ?”]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_a.ogg"><![CDATA[Fly]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_b.ogg"><![CDATA[Sky]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_c.ogg"><![CDATA[Float]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_d.ogg"><![CDATA[Air]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" top="15" audio="assets/sounds/questions/iq_q11.ogg"><![CDATA[Which of these words do not title animals? ]]></question>
+			<answers correctAnswer="6">
+				<answer top="45" type="text" width="25" left="10" audio="assets/sounds/questions/iq_q11_a.ogg"><![CDATA[Koala]]></answer>
+				<answer top="45" type="text" left="37.5" width="25" audio="assets/sounds/questions/iq_q11_b.ogg"><![CDATA[Reptile]]></answer>
+				<answer top="45" type="text" left="65" width="25" audio="assets/sounds/questions/iq_q11_c.ogg"><![CDATA[Gorilla]]></answer>
+				<answer top="62" type="text" left="10" width="25" audio="assets/sounds/questions/iq_q11_d.ogg"><![CDATA[Gaseous]]></answer>
+				<answer top="62" type="text" left="37.5" width="25" audio="assets/sounds/questions/iq_q11_e.ogg"><![CDATA[Kangaroo]]></answer>
+				<answer top="62" type="text" left="65" width="25" audio="assets/sounds/questions/iq_q11_f.ogg"><![CDATA[Ant]]></answer>
+				<answer top="79" type="text" left="37.5" width="25" audio="assets/sounds/questions/iq_q11_g.ogg"><![CDATA[Bear]]></answer>
+			</answers>
+			<inputs/>
+			<explanation audio="assets/sounds/questions/iq_q11_explain.ogg"><![CDATA[ Ants are insects. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="30" top="12" lineHeight="30" audio="assets/sounds/questions/iq_q11.ogg"><![CDATA[Which of these words do not title animals? ]]></question>
+			<answers correctAnswer="6">
+				<answer type="text" width="90" top="30" height="8" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_a.ogg"><![CDATA[Koala]]></answer>
+				<answer width="90" height="8" top="39" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_b.ogg"><![CDATA[Reptile]]></answer>
+				<answer width="90" height="8" top="48" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_c.ogg"><![CDATA[Gorilla]]></answer>
+				<answer width="90" height="8" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_d.ogg"><![CDATA[Gaseous]]></answer>
+				<answer width="90" height="8" top="66" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_e.ogg"><![CDATA[Kangaroo]]></answer>
+				<answer width="90" height="8" top="75" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_f.ogg"><![CDATA[Ant]]></answer>
+				<answer width="90" height="8" top="84" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_g.ogg"><![CDATA[Bear]]></answer>
+			</answers>
+			<inputs/>
+			<explanation type="text" fontSize="30" lineHeight="30" audio="assets/sounds/questions/iq_q11_explain.ogg"><![CDATA[ Ants are insects. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="text" audio="assets/sounds/questions/iq_q12.ogg"><![CDATA[Some bracelets are valueble jewelry. All bracelets are made of gold. Which is true for sure?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="55" width="70" left="15" audio="assets/sounds/questions/iq_q12_a.ogg"><![CDATA[Some bracelets are made of silver]]></answer>
+				<answer top="72" type="text" left="15" width="70" audio="assets/sounds/questions/iq_q12_b.ogg"><![CDATA[Some jewelry are made of gold]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="30" lineHeight="30" top="15" audio="assets/sounds/questions/iq_q12.ogg"><![CDATA[Some bracelets are valueble jewelry. All bracelets are made of gold. Which is true for sure?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="15" top="45" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q12_a.ogg"><![CDATA[Some bracelets are made of silver]]></answer>
+				<answer width="90" height="15" top="65" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q12_b.ogg"><![CDATA[Some jewelry are made of gold]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>IQ Questions (Audio)</category>
+		<landscape>
+			<question type="image" top="15" width="60" left="20" audio="assets/sounds/questions/iq_q13.ogg">assets/questions/question_blank.png</question>
+			<answers correctAnswer="5">
+				<answer top="65" type="image" width="10" left="15">assets/questions/blank1.png</answer>
+				<answer top="65" type="image" width="10" left="30">assets/questions/blank2.png</answer>
+				<answer top="65" type="image" width="10" left="45">assets/questions/blank3.png</answer>
+				<answer top="65" type="image" width="10" left="60">assets/questions/blank4.png</answer>
+				<answer top="65" type="image" width="10" left="75">assets/questions/blank5.png</answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" top="20" audio="assets/sounds/questions/iq_q13.ogg">assets/questions/question_blank.png</question>
+			<answers correctAnswer="5">
+				<answer top="46" type="image" width="25" left="17">assets/questions/blank1.png</answer>
+				<answer top="46" type="image" width="25" left="57">assets/questions/blank2.png</answer>
+				<answer top="60" type="image" width="25" left="17">assets/questions/blank3.png</answer>
+				<answer top="60" type="image" width="25" left="57">assets/questions/blank4.png</answer>
+				<answer top="72" type="image" width="25" left="36">assets/questions/blank5.png</answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+	<item>
+		<category>Math Puzzles (Audio)</category>
+		<landscape>
+			<question type="image" width="45" top="15" left="27.5" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q1.png</question>
+			<answers correctAnswer="4">
+				<answer type="text" top="72" width="15" left="18" audio="assets/sounds/questions/math_q1_a.ogg"><![CDATA[9]]></answer>
+				<answer top="72" type="text" left="35" width="15" audio="assets/sounds/questions/math_q1_b.ogg"><![CDATA[4]]></answer>
+				<answer top="72" type="text" left="52" width="15" audio="assets/sounds/questions/math_q1_c.ogg"><![CDATA[5]]></answer>
+				<answer top="72" type="text" left="69" width="15" audio="assets/sounds/questions/math_q1_d.ogg"><![CDATA[6]]></answer>
+			</answers>
+			<inputs/>
+			<explanation audio="assets/sounds/questions/math_q1_explain.ogg"><![CDATA[ Looking at the diagram in rows, the central circle equals half the sum of the numbers in the other circles to the left and right of the centre. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" top="10" width="80" left="10" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q1.png</question>
+			<answers correctAnswer="4">
+				<answer type="text" width="90" height="8" top="44" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_a.ogg"><![CDATA[9]]></answer>
+				<answer width="90" height="8" top="54" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_b.ogg"><![CDATA[4]]></answer>
+				<answer width="90" height="8" top="64" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_c.ogg"><![CDATA[5]]></answer>
+				<answer width="90" height="8" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_d.ogg"><![CDATA[6]]></answer>
+			</answers>
+			<inputs/>
+			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q1_explain.ogg"><![CDATA[ Looking at the diagram in rows, the central circle equals half the sum of the numbers in the other circles to the left and right of the centre.  ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Puzzles (Audio)</category>
+		<landscape>
+			<question type="image" width="60" top="15" left="20" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q2.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="9" top="60"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="75" color="#fff"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation audio="assets/sounds/questions/math_q2_explain.ogg"><![CDATA[ The number at the centre of each triangle equals the sum of the lower two numbers minus the top number. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" top="20" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q2.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="9" width="50" left="25" fontSize="50" lineHeight="50"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff" fontSize="30" lineHeight="30" offsetTop="-15" left="25" width="50"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q2_explain.ogg"><![CDATA[ The number at the centre of each triangle equals the sum of the lower two numbers minus the top number. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Puzzles (Audio)</category>
+		<landscape>
+			<question type="image" width="60" top="15" left="20" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q3.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="3" top="62"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="77" color="#fff"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation audio="assets/sounds/questions/math_q3_explain.ogg"><![CDATA[ In each group of 3 numbers, the lower number equals the average of the top two numbers. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" top="20" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q3.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="3" left="25" width="50" fontSize="50" lineHeight="50"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff" fontSize="30" lineHeight="30" offsetTop="-15" left="25" width="50"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q3_explain.ogg"><![CDATA[ In each group of 3 numbers, the lower number equals the average of the top two numbers. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Puzzles (Audio)</category>
+		<landscape>
+			<question type="image" width="43" top="15" left="29.5" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q4.png</question>
+			<answers correctAnswer="3">
+				<answer type="text" top="72" width="15" left="18" audio="assets/sounds/questions/math_q4_a.ogg"><![CDATA[11]]></answer>
+				<answer top="72" type="text" left="35" width="15" audio="assets/sounds/questions/math_q4_b.ogg"><![CDATA[15]]></answer>
+				<answer top="72" type="text" left="52" width="15" audio="assets/sounds/questions/math_q4_c.ogg"><![CDATA[8]]></answer>
+				<answer top="72" type="text" left="69" width="15" audio="assets/sounds/questions/math_q4_d.ogg"><![CDATA[7]]></answer>
+			</answers>
+			<inputs/>
+			<explanation audio="assets/sounds/questions/math_q4_explain.ogg"><![CDATA[ Divide the circle, horizontally and vertically, to give 4 quarters.
+
+The sum of the numbers in the segments of each quarter equals 11. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" top="10" left="10" width="80" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q4.png</question>
+			<answers correctAnswer="3">
+				<answer type="text" width="90" height="8" top="47" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_a.ogg"><![CDATA[11]]></answer>
+				<answer width="90" height="8" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_b.ogg"><![CDATA[15]]></answer>
+				<answer width="90" height="8" top="67" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_c.ogg"><![CDATA[8]]></answer>
+				<answer width="90" height="8" top="77" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_d.ogg"><![CDATA[7]]></answer>
+			</answers>
+			<inputs/>
+			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q4_explain.ogg"><![CDATA[ Divide the circle, horizontally and vertically, to give 4 quarters.
+
+The sum of the numbers in the segments of each quarter equals 11. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Puzzles (Audio)</category>
+		<landscape>
+			<question type="image" width="45" top="15" left="27.5" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q5.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="39" top="75" left="30"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="77" color="#fff" left="52" correctAnswer="9"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation audio="assets/sounds/questions/math_q5_explain.ogg"><![CDATA[ Working from top to bottom, double each number and subtract 1, then 2, then 3 etc. ]]></explanation>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" top="12" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q5.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="39" left="25" width="50" top="55"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="69" color="#fff" fontSize="30" lineHeight="30" offsetTop="-15" left="25" width="50"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q5_explain.ogg"><![CDATA[ Working from top to bottom, double each number and subtract 1, then 2, then 3 etc. ]]></explanation>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Video</category>
+		<landscape>
+			<question type="text" top="13"><![CDATA[How many animals in the scene?]]></question>
+			<videos left="10" top="30" autoplay="true" controls="true">
+				<video type="video/mp4">assets/questions/mov_bbb.mp4</video>
+			</videos>
+			<answers correctAnswer="3">
+				<answer type="text" top="31" width="35" left="54"><![CDATA[0]]></answer>
+				<answer top="48" type="text" left="54" width="35"><![CDATA[1]]></answer>
+				<answer top="65" type="text" left="54" width="35"><![CDATA[2]]></answer>
+				
+			</answers>
+			<inputs/>
+			<explanation/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="28" top="10" lineHeight="28"><![CDATA[How many animals in the scene?]]></question>
+			<videos left="5" top="22" width="90" height="33" autoplay="true" controls="true">
+				<video type="video/mp4">assets/questions/mov_bbb.mp4</video>
+			</videos>
+			<answers correctAnswer="3">
+				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[0]]></answer>
+				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[1]]></answer>
+				<answer width="90" height="10" top="84" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[2]]></answer>
+				
+			</answers>
+			<inputs/>
+			<explanation type="text" fontSize="25" lineHeight="25"/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Questions</category>
+		<landscape>
+			<question type="image" width="55" top="35" left="22.5">assets/questions/math_q7.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="52" left="25" width="20"><![CDATA[?]]></input>
+				<input type="blank" correctAnswer="45" left="55" width="20"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="65" color="#fff"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation/>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" top="22" lineHeight="35" width="60" left="20">assets/questions/math_q7_portrait.png</question>
+			<inputs>
+				<input type="blank" correctAnswer="52" width="50" left="25" top="33"><![CDATA[?]]></input>
+				<input type="blank" correctAnswer="45" width="50" left="25" top="65"><![CDATA[?]]></input>
+				<input type="text" submit="true" top="80" color="#fff" left="25" width="50" fontSize="25" lineHeight="25" offsetTop="-20"><![CDATA[OK]]></input>
+			</inputs>
+			<explanation/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Questions</category>
+		<landscape>
+			<question type="text" fontSize="100" lineHeight="100" top="20"><![CDATA[4 + 4 - 3 = ?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[4]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[5]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[6]]></answer>
+				<answer top="65" type="text" left="51" width="35"><![CDATA[7]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="50" lineHeight="50" top="20"><![CDATA[4 + 4 - 3 = ?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="35" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[4]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[5]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[6]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[7]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Questions</category>
+		<landscape>
+			<question type="text" top="25" fontSize="80" lineHeight="80"><![CDATA[( 45 - 9 ) + 33 = ?]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" top="55" width="25" left="10"><![CDATA[58]]></answer>
+				<answer top="55" type="text" left="37.5" width="25"><![CDATA[59]]></answer>
+				<answer top="55" type="text" left="65" width="25"><![CDATA[68]]></answer>
+				<answer top="72" type="text" left="23" width="25"><![CDATA[69]]></answer>
+				<answer top="72" type="text" left="51" width="25"><![CDATA[70]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="45" lineHeight="45" top="20"><![CDATA[( 45 - 9 ) + 33 = ?]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" width="90" height="10" top="36" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[58]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[59]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[68]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[69]]></answer>
+				<answer width="90" height="10" top="80" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[70]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Questions</category>
+		<landscape>
+			<question type="text" top="23"><![CDATA[9 x 3 = 27
+
+Is it true or false?]]></question>
+			<answers correctAnswer="1">
+				<answer type="text" top="55" left="18"><![CDATA[True]]></answer>
+				<answer top="55" type="text" left="50"><![CDATA[False]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="35" top="20"><![CDATA[9 x 3 = 27
+
+Is it true or false?]]></question>
+			<answers correctAnswer="1">
+				<answer type="text" width="90" height="10" top="45" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[True]]></answer>
+				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[False]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
+	<item>
+		<category>Math Questions</category>
+		<landscape>
+			<question type="image" width="45" left="27.5" top="15">assets/questions/math_q6.png</question>
+			<answers correctAnswer="2">
+				<answer type="text" top="50" width="35" left="14"><![CDATA[5 - 2]]></answer>
+				<answer top="50" type="text" left="51" width="35"><![CDATA[4 - 2]]></answer>
+				<answer top="67" type="text" left="14" width="35"><![CDATA[5 - 1]]></answer>
+				<answer top="67" type="text" left="51" width="35"><![CDATA[2 - 1]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="image" fontSize="35" lineHeight="35" top="12">assets/questions/math_q6.png</question>
+			<answers correctAnswer="2">
+				<answer type="text" width="90" height="10" top="35" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[5 - 2]]></answer>
+				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[4 - 2]]></answer>
+				<answer width="90" height="10" top="59" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[5 - 1]]></answer>
+				<answer width="90" height="10" top="71" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[2 - 1]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+</questions>
